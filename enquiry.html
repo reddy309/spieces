@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Enquiry | AromaticRoots</title>
+
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="enquiry.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="500x500"
+      href="images/Media-removebg-preview.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body>
+    <main class="enquiry-page">
+      <!-- HEADER -->
+      <header class="enquiry-header">
+        <a href="index.html" class="enquiry-logo">
+          <span class="enquiry-logo-icon">
+            <img
+              src="images/Media-removebg-preview.png"
+              alt="AromaticRoots Logo"
+            />
+          </span>
+
+          <span class="enquiry-logo-text">
+            <span class="enquiry-logo-name">
+              Aromatic<strong>Roots</strong>
+            </span>
+
+            <span class="enquiry-logo-tagline"> Rich in Flavour </span>
+          </span>
+        </a>
+
+        <div class="enquiry-header-actions">
+          <button
+            type="button"
+            class="enquiry-icon-button"
+            id="darkToggle"
+            aria-label="Toggle dark mode"
+            title="Dark Mode"
+          >
+            <i data-lucide="moon"></i>
+          </button>
+
+          <button
+            type="button"
+            class="enquiry-icon-button rtl-button"
+            id="rtlToggle"
+            aria-label="Toggle RTL"
+            title="Toggle RTL"
+          >
+            RTL
+          </button>
+        </div>
+      </header>
+
+      <!-- TWO COLUMN ENQUIRY LAYOUT -->
+      <section class="enquiry-layout">
+        <!-- LEFT CONTENT -->
+        <div class="enquiry-intro">
+          <span class="intro-label">WE'D LOVE TO HEAR FROM YOU</span>
+
+          <h1>
+            Let's Bring Flavor
+            <span>to Your Kitchen.</span>
+          </h1>
+
+          <p class="intro-description">
+            Discover the richness of authentic spices and handcrafted blends.
+            Tell us what you're looking for, and our team will help you find the
+            perfect flavors for your kitchen.
+          </p>
+
+          <ul class="enquiry-benefits">
+            <li>Authentic spices and signature blends</li>
+            <li>Premium whole spices and ground spices</li>
+            <li>Traditional masalas for authentic cooking</li>
+            <li>Regional spice collections from India</li>
+            <li>Specialty spices for unique flavours</li>
+            <li>Freshness, aroma, and quality assurance</li>
+            <li>Product and ingredient guidance</li>
+            <li>Spice pairing recommendations for recipes</li>
+            <li>Bulk orders and wholesale enquiries</li>
+            <li>Custom spice blends and packaging requirements</li>
+            <li>Carefully selected quality ingredients</li>
+            <li>Convenient packaging options</li>
+            <li>Traditional flavours for everyday cooking</li>
+          </ul>
+
+          <a href="contact.html" class="contact-button">
+            <i data-lucide="message-circle"></i>
+            Prefer to talk? Contact Us
+          </a>
+        </div>
+
+        <!-- RIGHT FORM -->
+        <div class="enquiry-form-panel">
+          <div class="form-heading">
+            <span class="form-eyebrow">AROMATICROOTS</span>
+            <h2>Send Your Enquiry</h2>
+            <p>Share a few details so we can assist you.</p>
+          </div>
+
+          <form class="enquiry-form" id="enquiryForm">
+            <div class="form-grid">
+              <div class="form-field">
+                <label for="fullName">Full Name</label>
+                <input
+                  type="text"
+                  id="fullName"
+                  name="fullName"
+                  placeholder="Enter your full name"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+
+              <div class="form-field">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter phone number"
+                  autocomplete="tel"
+                  required
+                />
+              </div>
+
+              <div class="form-field full-width">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter email address"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+
+              <div class="form-field">
+                <label for="enquiryType">Enquiry Type</label>
+                <select id="enquiryType" name="enquiryType" required>
+                  <option value="">Select enquiry type</option>
+                  <option>Product Enquiry</option>
+                  <option>Bulk Order</option>
+                  <option>Wholesale Enquiry</option>
+                  <option>Ingredients & Sourcing</option>
+                  <option>General Enquiry</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="product">Product Interest</label>
+                <select id="product" name="product" required>
+                  <option value="">Select a product</option>
+                  <option>Signature Spice Blends</option>
+                  <option>Whole Spices</option>
+                  <option>Ground Spices</option>
+                  <option>Herbs & Seasonings</option>
+                  <option>Condiments & Sauces</option>
+                  <option>Gift Collections</option>
+                  <option>Multiple Products</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="orderType">Order Type</label>
+                <select id="orderType" name="orderType">
+                  <option value="">Select order type</option>
+                  <option>Personal Use</option>
+                  <option>Bulk Purchase</option>
+                  <option>Retail Business</option>
+                  <option>Restaurant / Catering</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="contactDate">Preferred Contact Date</label>
+                <input type="date" id="contactDate" name="contactDate" />
+              </div>
+
+              <div class="form-field">
+                <label for="contactTime">Preferred Contact Time</label>
+                <select id="contactTime" name="contactTime">
+                  <option value="">Select a time</option>
+                  <option>Morning</option>
+                  <option>Afternoon</option>
+                  <option>Evening</option>
+                  <option>Any Time</option>
+                </select>
+              </div>
+
+              <div class="form-field full-width">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Tell us about your requirements..."
+                  required
+                ></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="submit-button">
+              Send Enquiry
+              <i data-lucide="arrow-up-right"></i>
+            </button>
+
+            <p id="enquiryStatus" class="enquiry-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

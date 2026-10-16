@@ -1,0 +1,1513 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Spice & Condiments Store</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="global.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="500x500"
+      href="images/Media-removebg-preview.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body>
+    <!-- =========================================================
+       HEADER
+  ========================================================== -->
+
+    <header class="site-header" id="siteHeader">
+      <div class="header-container">
+        <!-- =====================================================
+           LOGO
+      ====================================================== -->
+
+        <a href="index.html" class="logo">
+          <span class="logo-icon">
+            <img
+              src="images/Media-removebg-preview.png"
+              alt="Spice & Condiments Store Logo"
+            />
+          </span>
+
+          <span class="logo-text">
+            <span class="logo-name">Aromatic<strong>Roots</strong></span>
+            <span class="logo-tagline"> Rich in Flavour</span>
+          </span>
+        </a>
+
+        <!-- =====================================================
+           MAIN NAVIGATION
+      ====================================================== -->
+
+        <nav class="main-nav" id="mainNav">
+          <!-- ===================================================
+             HOME DROPDOWN
+        ==================================================== -->
+
+          <div class="nav-dropdown">
+            <button
+              type="button"
+              class="nav-link dropdown-button"
+              id="homeDropdownButton"
+              aria-expanded="false"
+            >
+              Home
+              <i data-lucide="chevron-down"></i>
+            </button>
+
+            <div class="dropdown-menu">
+              <a href="index.html">Home 1</a>
+              <a href="index1.html">Home 2</a>
+            </div>
+          </div>
+
+          <!-- ===================================================
+             ABOUT
+        ==================================================== -->
+
+          <a href="about.html" class="nav-link"> About </a>
+
+          <!-- ===================================================
+             PRODUCTS
+        ==================================================== -->
+
+          <a href="product.html" class="nav-link"> Products </a>
+
+          <!-- ===================================================
+             RECIPES
+        ==================================================== -->
+
+          <a href="receipe.html" class="nav-link"> Recipes </a>
+
+          <!-- ===================================================
+             CONTACT
+        ==================================================== -->
+
+          <a href="contact.html" class="nav-link"> Contact </a>
+
+          <!-- ===================================================
+             MOBILE ENQUIRY
+        ==================================================== -->
+
+          <a href="contact.html" class="mobile-login"> Enquiry Form </a>
+        </nav>
+
+        <!-- =====================================================
+           HEADER ACTIONS
+      ====================================================== -->
+
+        <div class="header-actions">
+          <!-- RTL -->
+
+          <button
+            type="button"
+            class="rtl-button"
+            id="rtlToggle"
+            aria-label="Switch to RTL"
+            title="Switch to RTL"
+          >
+            <span>RTL</span>
+          </button>
+
+          <!-- DARK MODE -->
+
+          <button
+            type="button"
+            class="icon-button"
+            id="darkToggle"
+            aria-label="Dark Mode"
+            title="Dark Mode"
+          >
+            <i data-lucide="moon"></i>
+          </button>
+
+          <!-- ENQUIRY -->
+
+          <a href="enquiry.html" class="login-button">
+            <span> Enquiry Form </span>
+          </a>
+
+          <!-- MOBILE MENU -->
+
+          <button
+            type="button"
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open Menu"
+            title="Menu"
+          >
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="heritage-spice-hero" id="heritage-spice-hero">
+      <div class="heritage-spice-bg"></div>
+
+      <div class="heritage-spice-overlay"></div>
+
+      <div class="heritage-spice-container">
+        <div class="heritage-spice-content">
+          <span class="heritage-spice-label"> HERITAGE SPICE COLLECTION </span>
+
+          <h1 class="heritage-spice-title">
+            Timeless Flavors,
+            <span>Crafted With Heritage</span>
+          </h1>
+
+          <p class="heritage-spice-description">
+            Discover the richness of authentic spices and signature blends,
+            carefully selected and traditionally crafted to bring unforgettable
+            aroma, warmth, and depth to every dish.
+          </p>
+
+          <div class="heritage-spice-actions">
+            <a href="product.html" class="heritage-spice-btn primary">
+              Explore Spice Blends
+              <i data-lucide="arrow-right"></i>
+            </a>
+
+            <a href="about.html" class="heritage-spice-btn secondary">
+              Our Heritage
+              <i data-lucide="leaf"></i>
+            </a>
+          </div>
+
+          <div class="heritage-spice-features">
+            <div class="heritage-feature">
+              <span class="heritage-feature-icon">
+                <i data-lucide="leaf"></i>
+              </span>
+              <div>
+                <strong>Pure Ingredients</strong>
+                <small>Carefully selected spices</small>
+              </div>
+            </div>
+
+            <div class="heritage-feature">
+              <span class="heritage-feature-icon">
+                <i data-lucide="flame"></i>
+              </span>
+              <div>
+                <strong>Traditional Craft</strong>
+                <small>Inspired by timeless recipes</small>
+              </div>
+            </div>
+
+            <div class="heritage-feature">
+              <span class="heritage-feature-icon">
+                <i data-lucide="sparkles"></i>
+              </span>
+              <div>
+                <strong>Signature Blends</strong>
+                <small>Rich aroma and bold flavor</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========================================================
+     OUR SIGNATURE BLENDS
+========================================================= -->
+
+    <section class="signature-blends-section" id="signature-blends">
+      <div class="signature-blends-container">
+        <!-- SECTION HEADER -->
+        <div class="signature-blends-header">
+          <span class="signature-blends-label"> SIGNATURE COLLECTION </span>
+
+          <h2 class="signature-blends-title">
+            Our Signature <span>Blends</span>
+          </h2>
+
+          <p class="signature-blends-intro">
+            Discover handcrafted spice combinations, thoughtfully blended to
+            bring authentic aroma, warmth, and depth to every dish.
+          </p>
+        </div>
+
+        <!-- FEATURED BLEND -->
+        <div class="signature-featured">
+          <div class="signature-featured-image">
+            <img
+              src="images/signature bendn p3.jpg"
+              alt="Handcrafted Indian signature spice blend"
+            />
+
+            <div class="signature-image-overlay"></div>
+          </div>
+
+          <div class="signature-featured-content">
+            <h3>
+              Crafted With
+              <span>Heritage</span>
+            </h3>
+
+            <p>
+              Our signature blends bring together carefully selected spices in
+              perfectly balanced proportions. Each blend is inspired by
+              traditional Indian recipes and crafted to deliver rich aroma,
+              authentic flavor, and lasting warmth.
+            </p>
+
+            <div class="signature-highlights">
+              <div class="signature-highlight">
+                <span class="signature-highlight-icon">
+                  <i data-lucide="leaf"></i>
+                </span>
+
+                <div>
+                  <strong>Pure Ingredients</strong>
+                  <small>Carefully selected spices</small>
+                </div>
+              </div>
+
+              <div class="signature-highlight">
+                <span class="signature-highlight-icon">
+                  <i data-lucide="flame"></i>
+                </span>
+
+                <div>
+                  <strong>Rich Aroma</strong>
+                  <small>Freshly blended for depth</small>
+                </div>
+              </div>
+
+              <div class="signature-highlight">
+                <span class="signature-highlight-icon">
+                  <i data-lucide="heart"></i>
+                </span>
+
+                <div>
+                  <strong>Made With Care</strong>
+                  <small>Inspired by tradition</small>
+                </div>
+              </div>
+            </div>
+
+            <a href="receipe.html" class="signature-blends-btn">
+              Discover The Collection
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- BLEND CARDS -->
+        <div class="signature-blend-grid">
+          <!-- CARD 01 -->
+          <article class="signature-blend-card">
+            <div class="signature-card-image">
+              <img
+                src="images/garammasalahome1.jpg"
+                alt="Traditional Garam Masala blend"
+              />
+            </div>
+
+            <div class="signature-card-content">
+              <span class="signature-card-label"> TRADITIONAL BLEND </span>
+
+              <h3>Royal Garam Masala</h3>
+
+              <p>
+                A warm and aromatic blend of traditional spices crafted for
+                curries, gravies, rice dishes, and slow-cooked recipes.
+              </p>
+
+              <a href="product.html">
+                Explore Blend
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 02 -->
+          <article class="signature-blend-card">
+            <div class="signature-card-image">
+              <img
+                src="images/briyani masala home1.jpg"
+                alt="Premium Biryani Masala blend"
+              />
+            </div>
+
+            <div class="signature-card-content">
+              <span class="signature-card-label"> SIGNATURE BLEND </span>
+
+              <h3>Heritage Biryani Masala</h3>
+
+              <p>
+                A fragrant combination of whole and ground spices designed to
+                create rich aroma and authentic biryani flavor.
+              </p>
+
+              <a href="receipe.html">
+                Explore Blend
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 03 -->
+          <article class="signature-blend-card">
+            <div class="signature-card-image">
+              <img
+                src="images/indian cury blend.jpg"
+                alt="Authentic curry spice blend"
+              />
+            </div>
+
+            <div class="signature-card-content">
+              <span class="signature-card-label"> AUTHENTIC BLEND </span>
+
+              <h3>Indian Curry Blend</h3>
+
+              <p>
+                A balanced blend of aromatic spices created to add depth,
+                warmth, and authentic character to everyday curries.
+              </p>
+
+              <a href="receipe.html">
+                Explore Blend
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+     THE ESSENCE OF INDIAN SPICES
+========================================================= -->
+
+    <section class="essence-section" id="essence">
+      <div class="essence-container">
+        <!-- LEFT: SPICE IMAGE -->
+        <div class="essence-image-wrap">
+          <img
+            src="images/the essence.jpg"
+            alt="Authentic Indian spices with traditional aromatic ingredients"
+            loading="lazy"
+          />
+        </div>
+
+        <!-- RIGHT: CONTENT -->
+        <div class="essence-content">
+          <div class="essence-label">THE HEART OF INDIA</div>
+
+          <h2 class="essence-title">
+            The Essence of
+            <span>Indian Spices</span>
+          </h2>
+
+          <p class="essence-description">
+            Discover the soul of Indian cooking through the rich aromas, vibrant
+            colours, and authentic flavours of our carefully selected spices.
+            Every ingredient carries a tradition passed down through
+            generations.
+          </p>
+
+          <p class="essence-description">
+            From the warmth of turmeric to the bold aroma of cardamom, our
+            collection brings the timeless taste of Indian kitchens directly to
+            your home.
+          </p>
+
+          <!-- BUTTON WITH LUCIDE ICON -->
+          <a href="receipe.html" class="essence-btn">
+            <span>Explore Our Spices</span>
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+     BESTSELLING SPICES
+========================================================= -->
+
+    <section class="bestselling-spices" id="bestselling-spices">
+      <div class="bestselling-spices-container">
+        <!-- SECTION HEADER -->
+        <div class="bestselling-spices-header">
+          <span class="bestselling-spices-label"> BESTSELLING COLLECTION </span>
+
+          <h2 class="bestselling-spices-title">
+            Bestselling <span>Spices</span>
+          </h2>
+
+          <p class="bestselling-spices-intro">
+            Discover the spices loved for their authentic aroma, rich character,
+            and timeless flavor.
+          </p>
+        </div>
+
+        <!-- 6 CARDS -->
+        <div class="bestselling-spices-grid">
+          <!-- CARD 01 -->
+          <article class="bestselling-spice-card">
+            <div class="bestselling-spice-image">
+              <img
+                src="images/green condamen home1.jpg"
+                alt="Premium Cardamom"
+              />
+
+              <div class="bestselling-spice-overlay"></div>
+            </div>
+
+            <div class="bestselling-spice-content">
+              <span class="bestselling-spice-category"> WHOLE SPICE </span>
+
+              <h3>Green Cardamom</h3>
+
+              <p>
+                Fragrant, refreshing and naturally sweet with an unmistakable
+                aromatic character.
+              </p>
+
+              <a href="receipe.html">
+                Explore Spice
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 02 -->
+          <article class="bestselling-spice-card">
+            <div class="bestselling-spice-image">
+              <img src="images/cinamenhome1.jpg" alt="Pure Turmeric" />
+
+              <div class="bestselling-spice-overlay"></div>
+            </div>
+
+            <div class="bestselling-spice-content">
+              <span class="bestselling-spice-category"> GROUND SPICE </span>
+
+              <h3>Golden Turmeric</h3>
+
+              <p>
+                Earthy warmth and vibrant golden color for authentic everyday
+                Indian cooking.
+              </p>
+
+              <a href="receipe.html">
+                Explore Spice
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 03 -->
+          <article class="bestselling-spice-card">
+            <div class="bestselling-spice-image">
+              <img src="images/royal cinamon.jpg" alt="Premium Cinnamon" />
+
+              <div class="bestselling-spice-overlay"></div>
+            </div>
+
+            <div class="bestselling-spice-content">
+              <span class="bestselling-spice-category"> WHOLE SPICE </span>
+
+              <h3>Royal Cinnamon</h3>
+
+              <p>
+                Naturally sweet and warmly aromatic, adding depth to both sweet
+                and savory recipes.
+              </p>
+
+              <a href="receipe.html">
+                Explore Spice
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 04 -->
+          <article class="bestselling-spice-card">
+            <div class="bestselling-spice-image">
+              <img src="images/redhili home1.jpg" alt="Premium Red Chilli" />
+
+              <div class="bestselling-spice-overlay"></div>
+            </div>
+
+            <div class="bestselling-spice-content">
+              <span class="bestselling-spice-category"> GROUND SPICE </span>
+
+              <h3>Red Chilli</h3>
+
+              <p>
+                Bold color and balanced heat crafted to bring warmth and
+                character to every dish.
+              </p>
+
+              <a href="receipe.html">
+                Explore Spice
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 05 -->
+          <article class="bestselling-spice-card">
+            <div class="bestselling-spice-image">
+              <img src="images/blakpepperhome1.jpg" alt="Black Pepper" />
+
+              <div class="bestselling-spice-overlay"></div>
+            </div>
+
+            <div class="bestselling-spice-content">
+              <span class="bestselling-spice-category"> WHOLE SPICE </span>
+
+              <h3>Black Pepper</h3>
+
+              <p>
+                Bold, warm and naturally pungent with a rich aroma that elevates
+                every recipe.
+              </p>
+
+              <a href="receipe.html">
+                Explore Spice
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 06 -->
+          <article class="bestselling-spice-card">
+            <div class="bestselling-spice-image">
+              <img src="images/cloveshome1.jpg" alt="Premium Cloves" />
+
+              <div class="bestselling-spice-overlay"></div>
+            </div>
+
+            <div class="bestselling-spice-content">
+              <span class="bestselling-spice-category"> WHOLE SPICE </span>
+
+              <h3>Cloves</h3>
+
+              <p>
+                Intense aroma with warm, slightly sweet notes inspired by
+                traditional Indian kitchens.
+              </p>
+
+              <a href="receipe.html">
+                Explore Spice
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- =========================================================
+     FROM FARM TO KITCHEN — HORIZONTAL TIMELINE
+========================================================= -->
+
+    <section class="farm-kitchen-section" id="farm-to-kitchen">
+      <div class="farm-kitchen-container">
+        <!-- MAIN HEADING -->
+        <div class="farm-kitchen-header">
+          <span class="farm-kitchen-label"> FROM FARM TO KITCHEN </span>
+
+          <h2 class="farm-kitchen-title">From <span>Farm to Kitchen</span></h2>
+
+          <p class="farm-kitchen-intro">
+            Every spice begins its journey at the source and travels through
+            careful selection, natural preparation, traditional craftsmanship,
+            and thoughtful packaging before reaching your kitchen.
+          </p>
+        </div>
+
+        <!-- HORIZONTAL TIMELINE -->
+        <div class="farm-kitchen-timeline">
+          <!-- 01 -->
+          <article class="farm-kitchen-step">
+            <div class="farm-kitchen-step-top">
+              <div class="farm-kitchen-step-icon">
+                <i data-lucide="sprout"></i>
+              </div>
+            </div>
+
+            <div class="farm-kitchen-step-content">
+              <span class="farm-kitchen-step-label"> THE BEGINNING </span>
+
+              <h3>Carefully Sourced</h3>
+
+              <p>
+                Our journey starts with carefully selected ingredients from
+                trusted growing regions. We look for spices with natural color,
+                freshness, aroma, and authentic character. form of
+                spiceandcondiments
+              </p>
+            </div>
+          </article>
+
+          <!-- 02 -->
+          <article class="farm-kitchen-step">
+            <div class="farm-kitchen-step-top">
+              <div class="farm-kitchen-step-icon">
+                <i data-lucide="sun"></i>
+              </div>
+            </div>
+
+            <div class="farm-kitchen-step-content">
+              <span class="farm-kitchen-step-label"> NATURAL PREPARATION </span>
+
+              <h3>Freshly Prepared</h3>
+
+              <p>
+                Selected ingredients are cleaned and prepared with attention to
+                their natural qualities. Every step is handled thoughtfully to
+                protect the aroma, texture, color, and freshness of the spice.
+              </p>
+            </div>
+          </article>
+
+          <!-- 03 -->
+          <article class="farm-kitchen-step">
+            <div class="farm-kitchen-step-top">
+              <div class="farm-kitchen-step-icon">
+                <i data-lucide="flame"></i>
+              </div>
+            </div>
+
+            <div class="farm-kitchen-step-content">
+              <span class="farm-kitchen-step-label"> TRADITIONAL CRAFT </span>
+
+              <h3>Thoughtfully Blended</h3>
+
+              <p>
+                Traditional knowledge meets careful craftsmanship as selected
+                spices are combined in balanced proportions. Our blends are
+                created to bring warmth, depth, aroma, and authentic flavor.
+              </p>
+            </div>
+          </article>
+
+          <!-- 04 -->
+          <article class="farm-kitchen-step">
+            <div class="farm-kitchen-step-top">
+              <div class="farm-kitchen-step-icon">
+                <i data-lucide="package-check"></i>
+              </div>
+            </div>
+
+            <div class="farm-kitchen-step-content">
+              <span class="farm-kitchen-step-label"> YOUR KITCHEN </span>
+
+              <h3>Delivered With Care</h3>
+
+              <p>
+                The final step brings our carefully selected spices to your
+                kitchen. Each product is prepared with care so you can enjoy
+                authentic flavor in everyday meals and special recipes.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+     EXPLORE SPICE CATEGORIES
+     6 PREMIUM CATEGORY CARDS
+========================================================= -->
+
+    <section class="spice-categories-section" id="spice-categories">
+      <div class="spice-categories-container">
+        <!-- HEADER -->
+        <div class="spice-categories-header">
+          <span class="spice-categories-label"> EXPLORE OUR COLLECTION </span>
+
+          <h2 class="spice-categories-title">
+            Explore <span>Spice Categories</span>
+          </h2>
+
+          <p class="spice-categories-intro">
+            From whole spices to handcrafted blends and flavorful condiments,
+            discover ingredients selected to bring authentic aroma, warmth, and
+            character to every kitchen.
+          </p>
+        </div>
+
+        <!-- 6 CATEGORY CARDS -->
+        <div class="spice-categories-grid">
+          <!-- 01 -->
+          <article class="spice-category-card">
+            <div class="spice-category-image">
+              <img
+                src="images/whole spices home1.jpg"
+                alt="Whole Indian spices"
+              />
+
+              <div class="spice-category-overlay"></div>
+            </div>
+
+            <div class="spice-category-content">
+              <span class="spice-category-label"> AUTHENTIC COLLECTION </span>
+
+              <h3>Whole Spices</h3>
+
+              <p>
+                Discover aromatic whole spices carefully selected for their
+                natural fragrance, rich character, and traditional flavor.
+              </p>
+
+              <a href="product.html">
+                Explore Collection
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- 02 -->
+          <article class="spice-category-card">
+            <div class="spice-category-image">
+              <img
+                src="images/ground spieces home 1.jpg"
+                alt="Fresh ground Indian spices"
+              />
+
+              <div class="spice-category-overlay"></div>
+            </div>
+
+            <div class="spice-category-content">
+              <span class="spice-category-label"> FRESHLY GROUND </span>
+
+              <h3>Ground Spices</h3>
+
+              <p>
+                Fine, aromatic spice powders created to bring vibrant color,
+                balanced warmth, and authentic depth to everyday recipes.
+              </p>
+
+              <a href="product.html">
+                Explore Collection
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- 03 -->
+          <article class="spice-category-card">
+            <div class="spice-category-image">
+              <img
+                src="images/s[iceblendshome1.jpg"
+                alt="Traditional Indian spice blends"
+              />
+
+              <div class="spice-category-overlay"></div>
+            </div>
+
+            <div class="spice-category-content">
+              <span class="spice-category-label"> SIGNATURE COLLECTION </span>
+
+              <h3>Spice Blends</h3>
+
+              <p>
+                Heritage-inspired combinations of carefully balanced spices
+                crafted to create rich aroma, warmth, and unforgettable flavor.
+              </p>
+
+              <a href="product.html">
+                Explore Collection
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- 04 -->
+          <article class="spice-category-card">
+            <div class="spice-category-image">
+              <img
+                src="images/condements home1.jpg"
+                alt="Traditional Indian condiments"
+              />
+
+              <div class="spice-category-overlay"></div>
+            </div>
+
+            <div class="spice-category-content">
+              <span class="spice-category-label"> FLAVOR COLLECTION </span>
+
+              <h3>Condiments</h3>
+
+              <p>
+                ring every meal to life with our thoughtfully crafted
+                condiments, inspired by traditional recipes and rich regional
+                flavours.
+              </p>
+
+              <a href="product.html">
+                Explore Collection
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- 05 -->
+          <article class="spice-category-card">
+            <div class="spice-category-image">
+              <img
+                src="images/seasongs home1.jpg"
+                alt="Premium Indian seasonings"
+              />
+
+              <div class="spice-category-overlay"></div>
+            </div>
+
+            <div class="spice-category-content">
+              <span class="spice-category-label"> EVERYDAY ESSENTIALS </span>
+
+              <h3>Seasonings</h3>
+
+              <p>
+                Thoughtfully selected seasonings designed to enhance vegetables,
+                snacks, rice dishes, curries, and everyday home cooking.
+              </p>
+
+              <a href="product.html">
+                Explore Collection
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- 06 -->
+          <article class="spice-category-card">
+            <div class="spice-category-image">
+              <img
+                src="images/speclity siceshome1.jpg"
+                alt="Specialty Indian spices"
+              />
+
+              <div class="spice-category-overlay"></div>
+            </div>
+
+            <div class="spice-category-content">
+              <span class="spice-category-label"> SPECIALTY COLLECTION </span>
+
+              <h3>Specialty Spices</h3>
+
+              <p>
+                Explore distinctive ingredients and treasured regional flavors
+                chosen for curious cooks who appreciate authentic culinary
+                traditions.
+              </p>
+
+              <a href="product.html">
+                Explore Collection
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+     RECIPE OF THE SEASON
+     ONE SIDE IMAGE + ONE SIDE CONTENT
+========================================================= -->
+
+    <section class="season-recipe-section" id="recipe-of-season">
+      <div class="season-recipe-container">
+        <!-- =====================================================
+         IMAGE SIDE
+    ====================================================== -->
+
+        <div class="season-recipe-image-wrap">
+          <img
+            src="images/the indian traditon home1.jpg"
+            alt="Traditional seasonal recipe prepared with signature Indian spices"
+          />
+
+          <div class="season-recipe-image-overlay"></div>
+        </div>
+
+        <!-- =====================================================
+         CONTENT SIDE
+    ====================================================== -->
+
+        <div class="season-recipe-content">
+          <span class="season-recipe-label"> FEATURED RECIPE </span>
+
+          <h2 class="season-recipe-title">
+            A Taste of
+            <span>Tradition</span>
+          </h2>
+
+          <p class="season-recipe-description">
+            Bring the warmth of traditional Indian cooking to your table with a
+            comforting recipe created around our signature spices. Rich aroma,
+            balanced warmth, and authentic flavor come together in every
+            spoonful.
+          </p>
+
+          <p class="season-recipe-description">
+            Crafted with carefully selected ingredients and heritage-inspired
+            spice combinations, this seasonal favorite is perfect for sharing
+            with family and enjoying at home.
+          </p>
+
+          <!-- =================================================
+           RECIPE INFO
+      ================================================== -->
+
+          <div class="season-recipe-info">
+            <div class="season-recipe-info-item">
+              <span class="season-recipe-info-icon">
+                <i data-lucide="clock-3"></i>
+              </span>
+
+              <div>
+                <small>PREPARATION</small>
+                <strong>30 Min</strong>
+              </div>
+            </div>
+
+            <div class="season-recipe-info-item">
+              <span class="season-recipe-info-icon">
+                <i data-lucide="flame"></i>
+              </span>
+
+              <div>
+                <small>DIFFICULTY</small>
+                <strong>Easy</strong>
+              </div>
+            </div>
+
+            <div class="season-recipe-info-item">
+              <span class="season-recipe-info-icon">
+                <i data-lucide="users"></i>
+              </span>
+
+              <div>
+                <small>SERVES</small>
+                <strong>4 People</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- =================================================
+           FEATURED SPICES
+      ================================================== -->
+
+          <div class="season-recipe-spices">
+            <span>Signature spices</span>
+
+            <div class="season-recipe-spice-list">
+              <span>Garam Masala</span>
+              <span>Turmeric</span>
+              <span>Black Pepper</span>
+            </div>
+          </div>
+
+          <!-- =================================================
+           BUTTON
+      ================================================== -->
+
+          <a href="receipe.html" class="season-recipe-btn">
+            View Full Recipe
+
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- =========================================================
+     OUR HERITAGE PROMISE
+========================================================= -->
+
+    <section class="heritage-promise-section" id="heritage-promise">
+      <div class="heritage-promise-container">
+        <!-- SECTION HEADER -->
+        <div class="heritage-promise-header">
+          <span class="heritage-promise-label"> OUR HERITAGE PROMISE </span>
+
+          <h2 class="heritage-promise-title">
+            Rooted in <span>Tradition & Care</span>
+          </h2>
+
+          <p class="heritage-promise-intro">
+            Our promise is built around authentic ingredients, thoughtful
+            craftsmanship, timeless traditions, and quality you can trust.
+          </p>
+        </div>
+
+        <!-- =====================================================
+         MAIN 2 × 2 CARD + CENTER LAYOUT
+    ====================================================== -->
+
+        <div class="heritage-promise-layout">
+          <!-- CARD 01 -->
+          <article class="heritage-promise-card card-one">
+            <div class="heritage-card-icon">
+              <i data-lucide="landmark"></i>
+            </div>
+
+            <span class="heritage-card-label"> OUR ROOTS </span>
+
+            <h3>Authentic Tradition</h3>
+
+            <p>
+              Inspired by generations of Indian culinary knowledge, our spices
+              carry the warmth, aroma, and character of traditional kitchens.
+            </p>
+          </article>
+
+          <!-- CARD 02 -->
+          <article class="heritage-promise-card card-two">
+            <div class="heritage-card-icon">
+              <i data-lucide="leaf"></i>
+            </div>
+
+            <span class="heritage-card-label"> PURE SELECTION </span>
+
+            <h3>Pure & Natural</h3>
+
+            <p>
+              Carefully selected ingredients are chosen for their freshness,
+              natural aroma, vibrant color, and authentic character.
+            </p>
+          </article>
+
+          <!-- =================================================
+           CENTER ROUND
+      ================================================== -->
+
+          <div class="heritage-center">
+            <div class="heritage-center-ring ring-one"></div>
+
+            <div class="heritage-center-ring ring-two"></div>
+
+            <div class="heritage-center-circle">
+              <div class="heritage-center-content">
+                <i data-lucide="sprout"></i>
+
+                <span> OUR PHILOSOPHY </span>
+
+                <h3>Heritage Promise</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 03 -->
+          <article class="heritage-promise-card card-three">
+            <div class="heritage-card-icon">
+              <i data-lucide="heart-handshake"></i>
+            </div>
+
+            <span class="heritage-card-label"> OUR CRAFT </span>
+
+            <h3>Crafted With Care</h3>
+
+            <p>
+              Every blend is thoughtfully prepared with balanced proportions and
+              careful attention to aroma, flavor, texture, and consistency.
+            </p>
+          </article>
+
+          <!-- CARD 04 -->
+          <article class="heritage-promise-card card-four">
+            <div class="heritage-card-icon">
+              <i data-lucide="badge-check"></i>
+            </div>
+
+            <span class="heritage-card-label"> OUR COMMITMENT </span>
+
+            <h3>Quality You Can Trust</h3>
+
+            <p>
+              From ingredient selection to final preparation, every stage
+              reflects our commitment to dependable quality and authentic
+              flavor.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     CUSTOMER FAVORITES — TESTIMONIALS
+====================================================== -->
+
+    <section class="customer-favorites" id="customerFavorites">
+      <div class="favorites-container">
+        <!-- SECTION HEADING -->
+        <div class="favorites-heading reveal">
+          <span class="favorites-eyebrow">LOVED BY OUR CUSTOMERS</span>
+
+          <h2>Customer Favorites</h2>
+
+          <p>
+            Every spice tells a story. Discover what our customers love about
+            the authentic flavours of AromaticRoots.
+          </p>
+        </div>
+
+        <!-- TESTIMONIAL GRID -->
+        <div class="favorites-grid">
+          <!-- CARD 1 -->
+          <article class="favorite-card reveal">
+            <div class="favorite-top">
+              <span class="quote-icon" aria-hidden="true">
+                <i data-lucide="quote"></i>
+              </span>
+
+              <div class="favorite-stars" aria-label="5 out of 5 stars">
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+              </div>
+            </div>
+
+            <p class="favorite-review">
+              "The aroma and freshness are incredible. Your spice blends bring
+              traditional flavours to my kitchen and make every meal feel
+              special."
+            </p>
+
+            <div class="favorite-divider"></div>
+
+            <div class="favorite-customer">
+              <div class="customer-avatar" aria-hidden="true">PS</div>
+
+              <div class="customer-info">
+                <h3>Emily Johnson</h3>
+                <span>Home Cook</span>
+              </div>
+
+              <span class="verified-badge" aria-hidden="true">
+                <i data-lucide="badge-check"></i>
+              </span>
+            </div>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="favorite-card reveal">
+            <div class="favorite-top">
+              <span class="quote-icon" aria-hidden="true">
+                <i data-lucide="quote"></i>
+              </span>
+
+              <div class="favorite-stars" aria-label="5 out of 5 stars">
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+              </div>
+            </div>
+
+            <p class="favorite-review">
+              "Excellent quality and rich flavour in every pack. The turmeric
+              and chilli powders are now essential ingredients in my kitchen."
+            </p>
+
+            <div class="favorite-divider"></div>
+
+            <div class="favorite-customer">
+              <div class="customer-avatar" aria-hidden="true">RR</div>
+
+              <div class="customer-info">
+                <h3>Michael Carter</h3>
+                <span>Food Enthusiast</span>
+              </div>
+
+              <span class="verified-badge" aria-hidden="true">
+                <i data-lucide="badge-check"></i>
+              </span>
+            </div>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="favorite-card reveal">
+            <div class="favorite-top">
+              <span class="quote-icon" aria-hidden="true">
+                <i data-lucide="quote"></i>
+              </span>
+
+              <div class="favorite-stars" aria-label="5 out of 5 stars">
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+              </div>
+            </div>
+
+            <p class="favorite-review">
+              "I love the authentic taste and beautiful packaging. The spice
+              mixes make everyday cooking feel special and full of flavour."
+            </p>
+
+            <div class="favorite-divider"></div>
+
+            <div class="favorite-customer">
+              <div class="customer-avatar" aria-hidden="true">AR</div>
+
+              <div class="customer-info">
+                <h3>Ethan Brooks</h3>
+                <span>Cooking Enthusiast</span>
+              </div>
+
+              <span class="verified-badge" aria-hidden="true">
+                <i data-lucide="badge-check"></i>
+              </span>
+            </div>
+          </article>
+
+          <!-- CARD 4 -->
+          <article class="favorite-card reveal">
+            <div class="favorite-top">
+              <span class="quote-icon" aria-hidden="true">
+                <i data-lucide="quote"></i>
+              </span>
+
+              <div class="favorite-stars" aria-label="5 out of 5 stars">
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+                <i data-lucide="star"></i>
+              </div>
+            </div>
+
+            <p class="favorite-review">
+              "The quality feels premium, and the flavours are beautifully
+              balanced. AromaticRoots has become one of my favourite places for
+              everyday spices."
+            </p>
+
+            <div class="favorite-divider"></div>
+
+            <div class="favorite-customer">
+              <div class="customer-avatar" aria-hidden="true">VK</div>
+
+              <div class="customer-info">
+                <h3>Charlotte Wilson</h3>
+                <span>Regular Customer</span>
+              </div>
+
+              <span class="verified-badge" aria-hidden="true">
+                <i data-lucide="badge-check"></i>
+              </span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     AROMATICROOTS — CTA SECTION
+===================================================== -->
+
+    <section class="cta-section" id="spice-cta">
+      <div class="cta-container">
+        <!-- LABEL -->
+        <span class="cta-label cta-reveal-item">
+          NATURAL SPICE COLLECTION
+        </span>
+
+        <!-- HEADING -->
+        <h2 class="cta-heading cta-reveal-item">
+          Bring Nature's Finest
+          <span>Flavours to Your Kitchen</span>
+        </h2>
+
+        <!-- DESCRIPTION -->
+        <p class="cta-description cta-reveal-item">
+          Discover the rich aroma of authentic spices and premium condiments.
+          Carefully selected for freshness, quality, and traditional flavour to
+          make every meal special.
+        </p>
+
+        <!-- BUTTONS -->
+        <div class="cta-buttons cta-reveal-item">
+          <a href="product.html" class="cta-btn primary-btn">
+            <span>Explore Collection</span>
+            <i data-lucide="arrow-right" aria-hidden="true"></i>
+          </a>
+
+          <a href="contact.html" class="cta-btn secondary-btn">
+            <span>Contact Us</span>
+            <i data-lucide="phone" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+
+    <footer class="site-footer">
+      <!-- =====================================================
+         FOOTER MAIN
+    ====================================================== -->
+
+      <div class="footer-container">
+        <!-- ===================================================
+           BRAND
+      ==================================================== -->
+
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <span class="footer-logo-icon">
+              <img
+                src="images/Media-removebg-preview.png"
+                alt="Spice & Condiments Store Logo"
+              />
+            </span>
+
+            <span class="footer-logo-text">
+              <span class="footer-logo-name">
+                Aromatic<strong>Roots</strong>
+              </span>
+
+              <span class="footer-logo-tagline"> Rich in Flavour </span>
+            </span>
+          </a>
+
+          <p class="footer-description">
+            Discover aromatic spices, heritage blends, and authentic condiments
+            crafted to bring rich, timeless flavors to every kitchen.
+          </p>
+
+          <!-- SOCIAL ICONS -->
+
+          <div class="footer-social">
+            <a href="#" aria-label="Community" title="Community">
+              <i data-lucide="users"></i>
+            </a>
+
+            <a href="#" aria-label="Gallery" title="Gallery">
+              <i data-lucide="camera"></i>
+            </a>
+
+            <a href="#" aria-label="Share" title="Share">
+              <i data-lucide="send"></i>
+            </a>
+
+            <a href="#" aria-label="Videos" title="Videos">
+              <i data-lucide="play"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- ===================================================
+           QUICK LINKS
+      ==================================================== -->
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+
+          <a href="index.html"> Home </a>
+
+          <a href="about.html"> About </a>
+
+          <a href="product.html"> Products </a>
+
+          <a href="recipe.html"> Recipes </a>
+
+          <a href="contact.html"> Contact </a>
+        </div>
+
+        <!-- ===================================================
+           OUR PRODUCTS
+      ==================================================== -->
+
+        <div class="footer-links">
+          <h3>Our Products</h3>
+
+          <a href="product.html"> Whole Spices </a>
+
+          <a href="product.html"> Ground Spices </a>
+
+          <a href="product.html"> Signature Blends </a>
+
+          <a href="product.html"> Condiments </a>
+
+          <a href="product.html"> Traditional Masalas </a>
+        </div>
+
+        <!-- ===================================================
+           CONTACT
+      ==================================================== -->
+
+        <div class="footer-links footer-contact">
+          <h3>Contact Us</h3>
+
+          <p>
+            <i data-lucide="map-pin"></i>
+
+            <span> Hyderabad, Telangana </span>
+          </p>
+
+          <p>
+            <i data-lucide="phone"></i>
+
+            <span> +91 98765 43210 </span>
+          </p>
+
+          <p>
+            <i data-lucide="mail"></i>
+
+            <span> hello@spiceandcondiments.com </span>
+          </p>
+
+          <p>
+            <i data-lucide="clock"></i>
+
+            <span> Mon – Sat · 9 AM – 7 PM </span>
+          </p>
+        </div>
+      </div>
+
+      <!-- =====================================================
+         FOOTER BOTTOM
+    ====================================================== -->
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-container">
+          <p>© 2026 Spice & Condiments Store. All Rights Reserved.</p>
+
+          <div class="footer-legal">
+            <a href="privacypolicy.html"> Privacy Policy </a>
+
+            <a href="terms.html"> Terms & Conditions </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="main.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

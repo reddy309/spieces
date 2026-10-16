@@ -1,0 +1,1281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Spice & Condiments Store</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="product.css" />
+    <link rel="stylesheet" href="global.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="500x500"
+      href="images/Media-removebg-preview.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body>
+    <!-- =========================================================
+       HEADER
+  ========================================================== -->
+
+    <header class="site-header" id="siteHeader">
+      <div class="header-container">
+        <!-- =====================================================
+           LOGO
+      ====================================================== -->
+
+        <a href="index.html" class="logo">
+          <span class="logo-icon">
+            <img
+              src="images/Media-removebg-preview.png"
+              alt="Spice & Condiments Store Logo"
+            />
+          </span>
+
+          <span class="logo-text">
+            <span class="logo-name">Aromatic<strong>Roots</strong></span>
+            <span class="logo-tagline"> Rich in Flavour</span>
+          </span>
+        </a>
+
+        <!-- =====================================================
+           MAIN NAVIGATION
+      ====================================================== -->
+
+        <nav class="main-nav" id="mainNav">
+          <!-- ===================================================
+             HOME DROPDOWN
+        ==================================================== -->
+
+          <div class="nav-dropdown">
+            <button
+              type="button"
+              class="nav-link dropdown-button"
+              id="homeDropdownButton"
+              aria-expanded="false"
+            >
+              Home
+              <i data-lucide="chevron-down"></i>
+            </button>
+
+            <div class="dropdown-menu">
+              <a href="index.html">Home 1</a>
+              <a href="index1.html">Home 2</a>
+            </div>
+          </div>
+
+          <!-- ===================================================
+             ABOUT
+        ==================================================== -->
+
+          <a href="about.html" class="nav-link"> About </a>
+
+          <!-- ===================================================
+             PRODUCTS
+        ==================================================== -->
+
+          <a href="product.html" class="nav-link"> Products </a>
+
+          <!-- ===================================================
+             RECIPES
+        ==================================================== -->
+
+          <a href="receipe.html" class="nav-link"> Recipes </a>
+
+          <!-- ===================================================
+             CONTACT
+        ==================================================== -->
+
+          <a href="contact.html" class="nav-link"> Contact </a>
+
+          <!-- ===================================================
+             MOBILE ENQUIRY
+        ==================================================== -->
+
+          <a href="contact.html" class="mobile-login"> Enquiry Form </a>
+        </nav>
+
+        <!-- =====================================================
+           HEADER ACTIONS
+      ====================================================== -->
+
+        <div class="header-actions">
+          <!-- RTL -->
+
+          <button
+            type="button"
+            class="rtl-button"
+            id="rtlToggle"
+            aria-label="Switch to RTL"
+            title="Switch to RTL"
+          >
+            <span>RTL</span>
+          </button>
+
+          <!-- DARK MODE -->
+
+          <button
+            type="button"
+            class="icon-button"
+            id="darkToggle"
+            aria-label="Dark Mode"
+            title="Dark Mode"
+          >
+            <i data-lucide="moon"></i>
+          </button>
+
+          <!-- ENQUIRY -->
+
+          <a href="enquiry.html" class="login-button">
+            <span> Enquiry Form </span>
+          </a>
+
+          <!-- MOBILE MENU -->
+
+          <button
+            type="button"
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open Menu"
+            title="Menu"
+          >
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- =====================================================
+     SPICE COLLECTION INTRODUCTION
+====================================================== -->
+    <section
+      class="spice-intro-section"
+      id="spice-intro-section"
+      aria-labelledby="spice-intro-heading"
+    >
+      <!-- BACKGROUND IMAGE -->
+      <div class="spice-intro-background" aria-hidden="true"></div>
+
+      <!-- IMAGE OVERLAY -->
+      <div class="spice-intro-overlay" aria-hidden="true"></div>
+
+      <!-- DECORATIVE LINES -->
+      <div class="spice-intro-top-line" aria-hidden="true"></div>
+
+      <!-- CONTENT -->
+      <div class="spice-intro-container">
+        <div class="spice-intro-content">
+          <span class="spice-intro-label"> THE AROMATICROOTS COLLECTION </span>
+
+          <h1 class="spice-intro-heading" id="spice-intro-heading">
+            Discover the World of
+            <span>Authentic Spices</span>
+          </h1>
+
+          <div class="spice-intro-divider" aria-hidden="true"></div>
+
+          <p class="spice-intro-description">
+            Explore a carefully curated collection of aromatic spices, vibrant
+            colours, and timeless flavours. From everyday kitchen essentials to
+            distinctive blends, discover ingredients that bring authentic taste
+            and natural goodness to every meal.
+          </p>
+
+          <div class="spice-intro-actions">
+            <a href="product.html" class="spice-intro-button">
+              <span>Explore Our Collection</span>
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+
+            <!-- OVERLAY TOGGLE -->
+            <button
+              type="button"
+              id="overlayToggle"
+              class="spice-intro-overlay-toggle"
+              aria-pressed="false"
+            >
+              explore products
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     AROMATICROOTS — 24 UNIQUE SPICE PRODUCTS
+===================================================== -->
+
+    <section class="products-section" id="shop">
+      <!-- SECTION HEADING -->
+      <div class="products-heading reveal">
+        <span class="section-label">OUR COLLECTION</span>
+        <h1>Shop Our <span>Spices</span></h1>
+        <p>
+          Explore distinctive spices, regional favourites, aromatic blends and
+          premium masalas crafted to bring exceptional flavour to your kitchen.
+        </p>
+      </div>
+
+      <!-- CATEGORY FILTERS -->
+      <div
+        class="product-filters"
+        role="group"
+        aria-label="Filter spice products"
+      >
+        <button
+          class="filter-btn active"
+          data-filter="all"
+          aria-pressed="true"
+          type="button"
+        >
+          Shop All Spices
+        </button>
+
+        <button
+          class="filter-btn"
+          data-filter="signature-blends"
+          aria-pressed="false"
+          type="button"
+        >
+          Signature Spice Blends
+        </button>
+
+        <button
+          class="filter-btn"
+          data-filter="whole-spices"
+          aria-pressed="false"
+          type="button"
+        >
+          Whole Spices
+        </button>
+
+        <button
+          class="filter-btn"
+          data-filter="ground-spices"
+          aria-pressed="false"
+          type="button"
+        >
+          Ground Spices
+        </button>
+
+        <button
+          class="filter-btn"
+          data-filter="premium-masalas"
+          aria-pressed="false"
+          type="button"
+        >
+          Premium Masalas
+        </button>
+
+        <button
+          class="filter-btn"
+          data-filter="regional-specialty"
+          aria-pressed="false"
+          type="button"
+        >
+          Regional &amp; Specialty Spices
+        </button>
+
+        <button
+          class="filter-btn"
+          data-filter="specialty-essentials"
+          aria-pressed="false"
+          type="button"
+        >
+          Specialty Spice Essentials
+        </button>
+      </div>
+
+      <!-- PRODUCT COUNT -->
+      <p class="product-count" aria-live="polite">
+        Showing <span id="visibleCount">6</span> products
+      </p>
+
+      <!-- PRODUCTS GRID -->
+      <div class="products-grid">
+        <!-- ================================================
+         SHOP ALL SPICES — 6 UNIQUE PRODUCTS
+    ================================================= -->
+
+        <article class="product-card reveal" data-category="shop-all">
+          <div class="product-image">
+            <img
+              src="images/safforen therds.jpg"
+              alt="Kashmiri Saffron Threads"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">SHOP ALL SPICES</span>
+            <h2>Kashmiri Saffron Threads</h2>
+            <p>
+              Delicate saffron threads for fragrant rice, desserts and special
+              dishes.
+            </p>
+            <div class="product-price">₹399 <span>/ 1 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="shop-all">
+          <div class="product-image">
+            <img
+              src="images/kerala green pepper.jpg"
+              alt="Kerala Green Pepper"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">SHOP ALL SPICES</span>
+            <h2>Kerala Green Pepper</h2>
+            <p>A distinctive pepper variety with a fresh, lively aroma.</p>
+            <div class="product-price">₹179 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="shop-all">
+          <div class="product-image">
+            <img
+              src="images/paparika flakes.jpg"
+              alt="Smoked Paprika Flakes"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">SHOP ALL SPICES</span>
+            <h2>Smoked Paprika Flakes</h2>
+            <p>
+              Smoky chilli flakes for vegetables, marinades and savoury dishes.
+            </p>
+            <div class="product-price">₹149 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="shop-all">
+          <div class="product-image">
+            <img src="enquiry.html" alt="Dried Ginger Powder" loading="lazy" />
+          </div>
+          <div class="product-info">
+            <span class="product-category">SHOP ALL SPICES</span>
+            <h2>Dried Ginger Powder</h2>
+            <p>
+              Warm, aromatic ginger powder for teas, baking and traditional
+              recipes.
+            </p>
+            <div class="product-price">₹129 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="shop-all">
+          <div class="product-image">
+            <img
+              src="images/nutmeg products.jpg"
+              alt="Wild Forest Long Pepper"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">SHOP ALL SPICES</span>
+            <h2>Nutmeg</h2>
+            <p>A traditional spice with a deep, warming flavour profile.</p>
+            <div class="product-price">₹199 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="shop-all">
+          <div class="product-image">
+            <img
+              src="images/cumin seeds products 1.jpg"
+              alt="Persian Cumin Seeds"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">SHOP ALL SPICES</span>
+            <h2>Persian Cumin Seeds</h2>
+            <p>
+              Earthy, aromatic cumin seeds for rice, soups and savoury dishes.
+            </p>
+            <div class="product-price">₹139 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.htmlz">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- ================================================
+         SIGNATURE SPICE BLENDS — 3 PRODUCTS
+    ================================================= -->
+
+        <article class="product-card reveal" data-category="signature-blends">
+          <div class="product-image">
+            <img
+              src="images/kura karam products.jpg"
+              alt="Andhra Special Kura Karam"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">SIGNATURE BLENDS</span>
+            <h2>Andhra Special Kura Karam</h2>
+            <p>
+              A bold traditional blend for flavourful Andhra-style vegetable
+              dishes.
+            </p>
+            <div class="product-price">₹189 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="signature-blends">
+          <div class="product-image">
+            <img
+              src="images/briyani spice mix  products.jpg"
+              alt="Hyderabadi Dum Spice Mix"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">SIGNATURE BLENDS</span>
+            <h2>Hyderabadi Dum Spice Mix</h2>
+            <p>A fragrant combination inspired by traditional dum cooking.</p>
+            <div class="product-price">₹259 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="signature-blends">
+          <div class="product-image">
+            <img
+              src="images/pepper blend product.jpg"
+              alt="Chettinad Pepper Blend"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">SIGNATURE BLENDS</span>
+            <h2>Chettinad Pepper Blend</h2>
+            <p>
+              A robust South Indian-inspired blend for bold, savoury dishes.
+            </p>
+            <div class="product-price">₹219 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- ================================================
+         WHOLE SPICES — 3 PRODUCTS
+    ================================================= -->
+
+        <article class="product-card reveal" data-category="whole-spices">
+          <div class="product-image">
+            <img
+              src="images/cinmann product1.jpg"
+              alt="Ceylon Cinnamon Sticks"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">WHOLE SPICES</span>
+            <h2>Ceylon Cinnamon Sticks</h2>
+            <p>
+              Sweetly aromatic cinnamon for beverages, desserts and curries.
+            </p>
+            <div class="product-price">₹199 <span>/ 50 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="whole-spices">
+          <div class="product-image">
+            <img
+              src="images/spieces str anis eproduct.jpg"
+              alt="Aromatic Star Anise"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">WHOLE SPICES</span>
+            <h2>Aromatic Star Anise</h2>
+            <p>Star-shaped whole spices with a sweet, distinctive aroma.</p>
+            <div class="product-price">₹159 <span>/ 50 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="whole-spices">
+          <div class="product-image">
+            <img
+              src="images/black candmon products.jpg"
+              alt="Black Cardamom Pods"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">WHOLE SPICES</span>
+            <h2>Black Cardamom Pods</h2>
+            <p>Bold, smoky pods for aromatic rice dishes and rich gravies.</p>
+            <div class="product-price">₹189 <span>/ 50 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- ================================================
+         GROUND SPICES — 3 PRODUCTS
+    ================================================= -->
+
+        <article class="product-card reveal" data-category="ground-spices">
+          <div class="product-image">
+            <img
+              src="images/cumin seeds products 1.jpg"
+              alt="Roasted Cumin Powder"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">GROUND SPICES</span>
+            <h2>Roasted Cumin Powder</h2>
+            <p>Toasty cumin flavour for raitas, savoury snacks and curries.</p>
+            <div class="product-price">₹109 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="ground-spices">
+          <div class="product-image">
+            <img
+              src="images/funnel product.jpg"
+              alt="Fragrant Fennel Powder"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">GROUND SPICES</span>
+            <h2>Fragrant Fennel Powder</h2>
+            <p>A gently sweet, aromatic powder for curries and spice blends.</p>
+            <div class="product-price">₹119 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="ground-spices">
+          <div class="product-image">
+            <img
+              src="images/smoky corderr powder product.jpg"
+              alt="Smoky Coriander Powder"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">GROUND SPICES</span>
+            <h2>Smoky Coriander Powder</h2>
+            <p>Warm coriander notes for sauces, curries and marinades.</p>
+            <div class="product-price">₹99 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- ================================================
+         PREMIUM MASALAS — 3 PRODUCTS
+    ================================================= -->
+
+        <article class="product-card reveal" data-category="premium-masalas">
+          <div class="product-image">
+            <img
+              src="images/Pav Bhaji Masala product.jpg"
+              alt="Mumbai Pav Bhaji Masala"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">PREMIUM MASALAS</span>
+            <h2>Mumbai Pav Bhaji Masala</h2>
+            <p>A vibrant, savoury seasoning for street-style pav bhaji.</p>
+            <div class="product-price">₹149 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="premium-masalas">
+          <div class="product-image">
+            <img
+              src="images/chat masal product.jpg"
+              alt="Tangy Street Chaat Masala"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">PREMIUM MASALAS</span>
+            <h2>Tangy Street Chaat Masala</h2>
+            <p>A tangy seasoning for fruit, snacks, salads and chaats.</p>
+            <div class="product-price">₹129 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="premium-masalas">
+          <div class="product-image">
+            <img
+              src="images/panner prodt masala.jpg"
+              alt="Royal Shahi Paneer Masala"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">PREMIUM MASALAS</span>
+            <h2>Royal Shahi Paneer Masala</h2>
+            <p>A fragrant blend for creamy paneer curries and rich gravies.</p>
+            <div class="product-price">₹169 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- ================================================
+         REGIONAL & SPECIALTY SPICES — 3 PRODUCTS
+    ================================================= -->
+
+        <article class="product-card reveal" data-category="regional-specialty">
+          <div class="product-image">
+            <img
+              src="images/gunur sanam chilli powder product.jpg"
+              alt="Guntur Sannam Chilli"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">REGIONAL &amp; SPECIALTY</span>
+            <h2>Guntur Sannam Chilli</h2>
+            <p>
+              A well-known Andhra chilli variety for vibrant colour and heat.
+            </p>
+            <div class="product-price">₹139 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="regional-specialty">
+          <div class="product-image">
+            <img
+              src="images/tamarid pwer  product.jpg"
+              alt="Malabar Tamarind"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">REGIONAL &amp; SPECIALTY</span>
+            <h2>Malabar Tamarind</h2>
+            <p>
+              A tangy ingredient traditionally used in coastal-style curries.
+            </p>
+            <div class="product-price">₹149 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="regional-specialty">
+          <div class="product-image">
+            <img
+              src="images/rajathani powdres chilli product.jpg"
+              alt="Rajasthani Mathania Chilli"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">REGIONAL &amp; SPECIALTY</span>
+            <h2>Rajasthani Mathania Chilli</h2>
+            <p>
+              A regional chilli prized for its distinctive colour and flavour.
+            </p>
+            <div class="product-price">₹159 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <!-- ================================================
+         SPECIALTY SPICE ESSENTIALS — 3 PRODUCTS
+    ================================================= -->
+
+        <article
+          class="product-card reveal"
+          data-category="specialty-essentials"
+        >
+          <div class="product-image">
+            <img
+              src="images/amochoor powder product.jpg"
+              alt="Tangy Amchur Powder"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">SPECIALTY ESSENTIALS</span>
+            <h2>Tangy Amchur Powder</h2>
+            <p>A tangy dried mango powder for snacks, chutneys and curries.</p>
+            <div class="product-price">₹119 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article
+          class="product-card reveal"
+          data-category="specialty-essentials"
+        >
+          <div class="product-image">
+            <img
+              src="images/ajawin seeds product.jpg"
+              alt="Fragrant Ajwain Seeds"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">SPECIALTY ESSENTIALS</span>
+            <h2>Fragrant Ajwain Seeds</h2>
+            <p>
+              Distinctively aromatic seeds for breads, savouries and seasoning.
+            </p>
+            <div class="product-price">₹89 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article
+          class="product-card reveal"
+          data-category="specialty-essentials"
+        >
+          <div class="product-image">
+            <img
+              src="images/mustred seeds product.jpg"
+              alt="Golden Mustard Seeds"
+              loading="lazy"
+            />
+          </div>
+          <div class="product-info">
+            <span class="product-category">SPECIALTY ESSENTIALS</span>
+            <h2>Golden Mustard Seeds</h2>
+            <p>
+              A versatile kitchen essential for tempering, pickling and curries.
+            </p>
+            <div class="product-price">₹79 <span>/ 100 g</span></div>
+            <a class="enquiry-btn" href="enquiry.html">
+              Enquire Now <span>↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <p class="pricing-note">
+        Prices shown are sample prices for design purposes. Confirm actual
+        product prices before publishing.
+      </p>
+    </section>
+
+    <section class="gift-boxes-section" id="gift-boxes">
+      <div class="gift-container">
+        <header class="gift-section-heading reveal">
+          <span class="gift-eyebrow">THE ART OF GIFTING</span>
+          <h2>Premium Spice <span> Boxes</span></h2>
+          <p>
+            Thoughtfully curated spices, timeless traditions, and authentic
+            flavours for every special occasion.
+          </p>
+        </header>
+
+        <div class="gift-grid">
+          <!-- CARD 1 -->
+          <article class="gift-card reveal">
+            <div class="gift-image">
+              <img
+                src="images/spices box produt.jpg"
+                alt="Kitchen Classics Spice Gift Box"
+                loading="lazy"
+              />
+              <span class="gift-badge">Everyday Essentials</span>
+            </div>
+
+            <div class="gift-content">
+              <span class="gift-number">01 / CLASSICS</span>
+              <h3>The Kitchen Classics Box</h3>
+              <p>
+                Essential spices for everyday cooking and authentic homemade
+                flavours.
+              </p>
+              <div class="gift-price">₹799</div>
+
+              <div class="gift-actions">
+                <a href="enquiry.html" class="gift-btn gift-enquiry">
+                  Enquiry Now
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="gift-card reveal">
+            <div class="gift-image">
+              <img
+                src="images/collection box gifts product.jpg"
+                alt="Royal Masala Spice Gift Box"
+                loading="lazy"
+              />
+              <span class="gift-badge">Signature Blends</span>
+            </div>
+
+            <div class="gift-content">
+              <span class="gift-number">02 / SIGNATURE</span>
+              <h3>The Royal Masala Box</h3>
+              <p>
+                Traditional masalas bringing rich aromas and memorable flavours
+                to your dishes.
+              </p>
+              <div class="gift-price">₹1,199</div>
+
+              <div class="gift-actions">
+                <a href="enquiry.html" class="gift-btn gift-enquiry">
+                  Enquiry Now
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="gift-card reveal">
+            <div class="gift-image">
+              <img
+                src="images/teseaure box product.jpg"
+                alt="Gourmet Treasure Spice Gift Box"
+                loading="lazy"
+              />
+              <span class="gift-badge">Gourmet Collection</span>
+            </div>
+
+            <div class="gift-content">
+              <span class="gift-number">03 / GOURMET</span>
+              <h3>The Gourmet Treasure Box</h3>
+              <p>
+                A distinctive collection of aromatic spices for gourmet cooking
+                and thoughtful gifting.
+              </p>
+              <div class="gift-price">₹1,499</div>
+
+              <div class="gift-actions">
+                <a href="enquiry.html" class="gift-btn gift-enquiry">
+                  Enquiry Now
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 4 -->
+          <article class="gift-card reveal">
+            <div class="gift-image">
+              <img
+                src="images/heitage box product.jpg"
+                alt="Heritage Celebration Spice Gift Box"
+                loading="lazy"
+              />
+              <span class="gift-badge">Festive Gifting</span>
+            </div>
+
+            <div class="gift-content">
+              <span class="gift-number">04 / HERITAGE</span>
+              <h3>The Heritage Celebration Box</h3>
+              <p>
+                Traditional flavours for festivals, celebrations, and special
+                moments.
+              </p>
+              <div class="gift-price">₹1,799</div>
+
+              <div class="gift-actions">
+                <a href="enquiry.html" class="gift-btn gift-enquiry">
+                  Enquiry Now
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPICE PAIRING RECOMMENDATIONS -->
+    <section class="spice-pairing-section" id="spice-pairing">
+      <div class="spice-pairing-container">
+        <!-- LEFT: FOUR PAIRING BOXES -->
+        <div class="pairing-grid">
+          <article class="pairing-card reveal">
+            <div class="pairing-number">01</div>
+            <div class="pairing-icon">🌿</div>
+            <h3>Turmeric & Black Pepper</h3>
+            <p>Earthy warmth with a bold peppery finish.</p>
+          </article>
+
+          <article class="pairing-card reveal">
+            <div class="pairing-number">02</div>
+            <div class="pairing-icon">🍂</div>
+            <h3>Cinnamon & Cardamom</h3>
+            <p>Sweet fragrance for desserts and warm drinks.</p>
+          </article>
+
+          <article class="pairing-card reveal">
+            <div class="pairing-number">03</div>
+            <div class="pairing-icon">🌶️</div>
+            <h3>Cumin & Coriander</h3>
+            <p>A classic aromatic foundation for savoury dishes.</p>
+          </article>
+
+          <article class="pairing-card reveal">
+            <div class="pairing-number">04</div>
+            <div class="pairing-icon">✨</div>
+            <h3>Cloves & Bay Leaves</h3>
+            <p>Deep, warming flavour for rice and slow-cooked meals.</p>
+          </article>
+        </div>
+
+        <!-- RIGHT: CONTENT -->
+        <div class="pairing-content reveal">
+          <span class="pairing-eyebrow">THE ART OF BLENDING</span>
+
+          <h2>
+            Spice Pairing
+            <span>Recommendations</span>
+          </h2>
+
+          <div class="pairing-divider"></div>
+
+          <p class="pairing-description">
+            Great flavour begins with the right combination. Discover
+            thoughtfully paired spices that complement one another and bring
+            depth, aroma, and character to your everyday cooking.
+          </p>
+
+          <p class="pairing-note">
+            From comforting curries to fragrant rice and delightful desserts,
+            find a pairing that inspires your next creation.
+          </p>
+
+          <a href="recipes.html" class="pairing-button">
+            Explore Our Recipes
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUSTOMER FAVORITES -->
+    <section class="customer-favorites-section" id="customer-favorites">
+      <div class="favorites-container">
+        <div class="favorites-heading reveal">
+          <span>CUSTOMER TESTIMONIALS</span>
+          <h2>Customer <strong>Favorites</strong></h2>
+          <p>Discover the flavours our customers love.</p>
+        </div>
+
+        <div class="customer-grid">
+          <!-- CUSTOMER 1 -->
+          <article class="customer-item reveal">
+            <div class="customer-circle">
+              <img src="images/priya sharama.jpg" alt="Priya Sharma" />
+            </div>
+            <h3>Priya Sharma</h3>
+            <div class="customer-stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <p>
+              Fresh spices with an amazing aroma.<br />
+              Perfect flavour for everyday cooking.
+            </p>
+          </article>
+
+          <!-- CUSTOMER 2 -->
+          <article class="customer-item reveal">
+            <div class="customer-circle">
+              <img src="images/rahul.jpg" alt="Rahul Reddy" />
+            </div>
+            <h3>Rahul Reddy</h3>
+            <div class="customer-stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <p>
+              Wonderful masalas and rich flavour.<br />
+              A favourite in my family kitchen.
+            </p>
+          </article>
+
+          <!-- CUSTOMER 3 -->
+          <article class="customer-item reveal">
+            <div class="customer-circle">
+              <img src="images/rao.jpg" alt="Ananya Rao" />
+            </div>
+            <h3>Ananya Rao</h3>
+            <div class="customer-stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <p>
+              Beautiful fragrance in every blend.<br />
+              Adds warmth to traditional recipes.
+            </p>
+          </article>
+
+          <!-- CUSTOMER 4 -->
+          <article class="customer-item reveal">
+            <div class="customer-circle">
+              <img src="images/vikram kumar.jpg" alt="Sneha Kumar" />
+            </div>
+            <h3>Vikram Kumar</h3>
+            <div class="customer-stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <p>
+              Authentic taste and lovely quality.<br />
+              Great for everyday family meals.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     SPICE STORE — CTA SECTION
+===================================================== -->
+
+    <section class="cta-section" id="cta">
+      <div class="cta-container">
+        <!-- LABEL -->
+        <span class="cta-label"> AROMATIC ROOTS </span>
+
+        <!-- HEADING -->
+        <h2>
+          Bring Home the Taste
+          <span>of Authentic Spices</span>
+        </h2>
+
+        <!-- DESCRIPTION -->
+        <p>
+          Discover the rich aroma, natural goodness, and authentic flavours of
+          carefully selected spices. Add a touch of tradition to every meal with
+          Aromatic Roots.
+        </p>
+
+        <!-- BUTTONS -->
+        <div class="cta-buttons">
+          <a href="products.html" class="cta-btn primary-btn">
+            Explore Our Products
+          </a>
+
+          <a href="contact.html" class="cta-btn secondary-btn"> Contact Us </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+
+    <footer class="site-footer">
+      <!-- =====================================================
+         FOOTER MAIN
+    ====================================================== -->
+
+      <div class="footer-container">
+        <!-- ===================================================
+           BRAND
+      ==================================================== -->
+
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <span class="footer-logo-icon">
+              <img
+                src="images/Media-removebg-preview.png"
+                alt="Spice & Condiments Store Logo"
+              />
+            </span>
+
+            <span class="footer-logo-text">
+              <span class="footer-logo-name">
+                Aromatic<strong>Roots</strong>
+              </span>
+
+              <span class="footer-logo-tagline"> Rich in Flavour </span> </span
+            >z
+          </a>
+
+          <p class="footer-description">
+            Discover aromatic spices, heritage blends, and authentic condiments
+            crafted to bring rich, timeless flavors to every kitchen.
+          </p>
+
+          <!-- SOCIAL ICONS -->
+
+          <div class="footer-social">
+            <a href="#" aria-label="Community" title="Community">
+              <i data-lucide="users"></i>
+            </a>
+
+            <a href="#" aria-label="Gallery" title="Gallery">
+              <i data-lucide="camera"></i>
+            </a>
+
+            <a href="#" aria-label="Share" title="Share">
+              <i data-lucide="send"></i>
+            </a>
+
+            <a href="#" aria-label="Videos" title="Videos">
+              <i data-lucide="play"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- ===================================================
+           QUICK LINKS
+      ==================================================== -->
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+
+          <a href="index.html"> Home </a>
+
+          <a href="about.html"> About </a>
+
+          <a href="product.html"> Products </a>
+
+          <a href="recipe.html"> Recipes </a>
+
+          <a href="contact.html"> Contact </a>
+        </div>
+
+        <!-- ===================================================
+           OUR PRODUCTS
+      ==================================================== -->
+
+        <div class="footer-links">
+          <h3>Our Products</h3>
+
+          <a href="product.html"> Whole Spices </a>
+
+          <a href="product.html"> Ground Spices </a>
+
+          <a href="product.html"> Signature Blends </a>
+
+          <a href="product.html"> Condiments </a>
+
+          <a href="product.html"> Traditional Masalas </a>
+        </div>
+
+        <!-- ===================================================
+           CONTACT
+      ==================================================== -->
+
+        <div class="footer-links footer-contact">
+          <h3>Contact Us</h3>
+
+          <p>
+            <i data-lucide="map-pin"></i>
+
+            <span> Hyderabad, Telangana </span>
+          </p>
+
+          <p>
+            <i data-lucide="phone"></i>
+
+            <span> +91 98765 43210 </span>
+          </p>
+
+          <p>
+            <i data-lucide="mail"></i>
+
+            <span> hello@spiceandcondiments.com </span>
+          </p>
+
+          <p>
+            <i data-lucide="clock"></i>
+
+            <span> Mon – Sat · 9 AM – 7 PM </span>
+          </p>
+        </div>
+      </div>
+
+      <!-- =====================================================
+         FOOTER BOTTOM
+    ====================================================== -->
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-container">
+          <p>© 2026 Spice & Condiments Store. All Rights Reserved.</p>
+
+          <div class="footer-legal">
+            <a href="privacypolicy.html"> Privacy Policy </a>
+
+            <a href="terms.html"> Terms & Conditions </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+    <script src="product.js"></script>
+  </body>
+</html>

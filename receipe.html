@@ -1,0 +1,982 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Spice & Condiments Store</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="receipe.css" />
+    <link rel="stylesheet" href="global.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="500x500"
+      href="images/Media-removebg-preview.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body>
+    <!-- =========================================================
+       HEADER
+  ========================================================== -->
+
+    <header class="site-header" id="siteHeader">
+      <div class="header-container">
+        <!-- =====================================================
+           LOGO
+      ====================================================== -->
+
+        <a href="index.html" class="logo">
+          <span class="logo-icon">
+            <img
+              src="images/Media-removebg-preview.png"
+              alt="Spice & Condiments Store Logo"
+            />
+          </span>
+
+          <span class="logo-text">
+            <span class="logo-name">Aromatic<strong>Roots</strong></span>
+            <span class="logo-tagline"> Rich in Flavour</span>
+          </span>
+        </a>
+
+        <!-- =====================================================
+           MAIN NAVIGATION
+      ====================================================== -->
+
+        <nav class="main-nav" id="mainNav">
+          <!-- ===================================================
+             HOME DROPDOWN
+        ==================================================== -->
+
+          <div class="nav-dropdown">
+            <button
+              type="button"
+              class="nav-link dropdown-button"
+              id="homeDropdownButton"
+              aria-expanded="false"
+            >
+              Home
+              <i data-lucide="chevron-down"></i>
+            </button>
+
+            <div class="dropdown-menu">
+              <a href="index.html">Home 1</a>
+              <a href="index1.html">Home 2</a>
+            </div>
+          </div>
+
+          <!-- ===================================================
+             ABOUT
+        ==================================================== -->
+
+          <a href="about.html" class="nav-link"> About </a>
+
+          <!-- ===================================================
+             PRODUCTS
+        ==================================================== -->
+
+          <a href="product.html" class="nav-link"> Products </a>
+
+          <!-- ===================================================
+             RECIPES
+        ==================================================== -->
+
+          <a href="receipe.html" class="nav-link"> Recipes </a>
+
+          <!-- ===================================================
+             CONTACT
+        ==================================================== -->
+
+          <a href="contact.html" class="nav-link"> Contact </a>
+
+          <!-- ===================================================
+             MOBILE ENQUIRY
+        ==================================================== -->
+
+          <a href="contact.html" class="mobile-login"> Enquiry Form </a>
+        </nav>
+
+        <!-- =====================================================
+           HEADER ACTIONS
+      ====================================================== -->
+
+        <div class="header-actions">
+          <!-- RTL -->
+
+          <button
+            type="button"
+            class="rtl-button"
+            id="rtlToggle"
+            aria-label="Switch to RTL"
+            title="Switch to RTL"
+          >
+            <span>RTL</span>
+          </button>
+
+          <!-- DARK MODE -->
+
+          <button
+            type="button"
+            class="icon-button"
+            id="darkToggle"
+            aria-label="Dark Mode"
+            title="Dark Mode"
+          >
+            <i data-lucide="moon"></i>
+          </button>
+
+          <!-- ENQUIRY -->
+
+          <a href="enquiry.html" class="login-button">
+            <span> Enquiry Form </span>
+          </a>
+
+          <!-- MOBILE MENU -->
+
+          <button
+            type="button"
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open Menu"
+            title="Menu"
+          >
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- =====================================================
+     RECIPE HERO BANNER
+===================================================== -->
+
+    <section class="recipe-hero">
+      <div class="recipe-hero-overlay"></div>
+
+      <div class="recipe-hero-content">
+        <span class="recipe-hero-eyebrow">
+          <span class="recipe-line"></span>
+          THE ART OF AUTHENTIC FLAVOUR
+          <span class="recipe-line"></span>
+        </span>
+
+        <h1>
+          Recipes Rooted in
+          <span>Tradition</span>
+        </h1>
+
+        <p>
+          Discover timeless recipes, aromatic spices and the beautiful flavours
+          that bring every meal to life. From traditional favourites to modern
+          creations, find inspiration for your kitchen.
+        </p>
+
+        <div class="recipe-hero-buttons">
+          <a href="#recipe-collection" class="recipe-btn recipe-btn-primary">
+            Explore Recipes
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+
+          <a href="product.html" class="recipe-btn recipe-btn-outline">
+            Discover Our Spices
+          </a>
+        </div>
+
+        <div class="recipe-hero-bottom">
+          <span>AUTHENTIC INGREDIENTS</span>
+          <span class="recipe-bottom-dot"></span>
+          <span>TIMELESS FLAVOURS</span>
+          <span class="recipe-bottom-dot"></span>
+          <span>MADE WITH LOVE</span>
+        </div>
+      </div>
+
+      <div class="recipe-hero-scroll">
+        <span></span>
+        <p>SCROLL TO DISCOVER</p>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     GREEN CARDAMOM SECTION
+===================================================== -->
+
+    <section class="green-cardamom-section" id="green-cardamom">
+      <!-- CONTENT SIDE -->
+
+      <div class="cardamom-content">
+        <div class="cardamom-eyebrow">
+          <span class="cardamom-eyebrow-line"></span>
+          <span>AROMATICROOTS · WHOLE SPICES</span>
+        </div>
+
+        <h2 class="cardamom-title">Green <span>Cardamom</span></h2>
+
+        <p class="cardamom-description">
+          Celebrated for its delicate fragrance and refreshing flavour, green
+          cardamom brings a distinctive touch to traditional sweets, aromatic
+          teas, biryani and everyday cooking. Every pod reflects the natural
+          richness and timeless heritage of authentic spices.
+        </p>
+
+        <div class="cardamom-process-heading">
+          <span>FROM HARVEST TO PACKAGING</span>
+          <h3>Our Processing Journey</h3>
+        </div>
+
+        <div class="cardamom-process-grid">
+          <article class="cardamom-step">
+            <span class="step-number">01</span>
+            <div class="step-content">
+              <h4>Harvesting</h4>
+              <p>Mature cardamom pods are carefully harvested.</p>
+            </div>
+          </article>
+
+          <article class="cardamom-step">
+            <span class="step-number">02</span>
+            <div class="step-content">
+              <h4>Selection</h4>
+              <p>Suitable pods are selected for processing.</p>
+            </div>
+          </article>
+
+          <article class="cardamom-step">
+            <span class="step-number">03</span>
+            <div class="step-content">
+              <h4>Cleaning</h4>
+              <p>Unwanted materials are removed with care.</p>
+            </div>
+          </article>
+
+          <article class="cardamom-step">
+            <span class="step-number">04</span>
+            <div class="step-content">
+              <h4>Drying</h4>
+              <p>Controlled drying helps manage excess moisture.</p>
+            </div>
+          </article>
+
+          <article class="cardamom-step">
+            <span class="step-number">05</span>
+            <div class="step-content">
+              <h4>Quality Grading</h4>
+              <p>Pods are inspected and graded for consistency.</p>
+            </div>
+          </article>
+
+          <article class="cardamom-step">
+            <span class="step-number">06</span>
+            <div class="step-content">
+              <h4>Packaging</h4>
+              <p>Selected pods are packed appropriately.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- IMAGE SIDE -->
+
+      <div class="cardamom-image">
+        <img
+          src="images/gree cardmon product.jpg"
+          alt="Premium green cardamom pods"
+          loading="lazy"
+        />
+
+        <div class="cardamom-image-overlay"></div>
+      </div>
+    </section>
+
+    <section class="golden-turmeric-section" id="golden-turmeric">
+      <!-- LEFT SIDE IMAGE -->
+      <div class="turmeric-image">
+        <img
+          src="images/golden tumeric process receipe.jpg"
+          alt="Golden turmeric roots and vibrant turmeric powder"
+          loading="lazy"
+        />
+
+        <div class="turmeric-image-overlay"></div>
+      </div>
+
+      <!-- RIGHT SIDE CONTENT -->
+      <div class="turmeric-content">
+        <div class="turmeric-eyebrow">
+          <span class="turmeric-eyebrow-line"></span>
+          <span>AROMATICROOTS · WHOLE SPICES</span>
+        </div>
+
+        <h2 class="turmeric-title">Golden <span>Turmeric</span></h2>
+
+        <p class="turmeric-subtitle">The Golden Essence of Tradition</p>
+
+        <p class="turmeric-description">
+          Celebrated for its vibrant golden colour, earthy aroma and distinctive
+          flavour, turmeric has been treasured in traditional kitchens for
+          generations. From comforting curries and fragrant rice dishes to
+          cherished family recipes, every pinch brings warmth, colour and
+          authentic Indian character to the table.
+        </p>
+
+        <div class="turmeric-process-heading">
+          <span>FROM HARVEST TO PACKAGING</span>
+          <h3>Our Processing Journey</h3>
+        </div>
+
+        <div class="turmeric-process-grid">
+          <article class="turmeric-step">
+            <span class="turmeric-step-number">01</span>
+            <div class="turmeric-step-content">
+              <h4>Harvesting</h4>
+              <p>Mature turmeric rhizomes are carefully harvested.</p>
+            </div>
+          </article>
+
+          <article class="turmeric-step">
+            <span class="turmeric-step-number">02</span>
+            <div class="turmeric-step-content">
+              <h4>Selection</h4>
+              <p>Suitable rhizomes are selected for further processing.</p>
+            </div>
+          </article>
+
+          <article class="turmeric-step">
+            <span class="turmeric-step-number">03</span>
+            <div class="turmeric-step-content">
+              <h4>Cleaning</h4>
+              <p>Soil and unwanted impurities are carefully removed.</p>
+            </div>
+          </article>
+
+          <article class="turmeric-step">
+            <span class="turmeric-step-number">04</span>
+            <div class="turmeric-step-content">
+              <h4>Drying</h4>
+              <p>Turmeric is dried to prepare it for processing.</p>
+            </div>
+          </article>
+
+          <article class="turmeric-step">
+            <span class="turmeric-step-number">05</span>
+            <div class="turmeric-step-content">
+              <h4>Quality Grading</h4>
+              <p>Appearance and quality are checked before packing.</p>
+            </div>
+          </article>
+
+          <article class="turmeric-step">
+            <span class="turmeric-step-number">06</span>
+            <div class="turmeric-step-content">
+              <h4>Packaging</h4>
+              <p>Prepared turmeric is packed for storage and delivery.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     ROYAL CINNAMON — PREMIUM EDITORIAL SECTION
+===================================================== -->
+
+    <section class="royal-cinnamon-section" id="royal-cinnamon">
+      <!-- LEFT CONTENT -->
+
+      <div class="cinnamon-content">
+        <div class="cinnamon-eyebrow">
+          <span class="cinnamon-eyebrow-line"></span>
+          <span>AROMATICROOTS · WHOLE SPICES</span>
+        </div>
+
+        <h2 class="cinnamon-title">Royal <span>Cinnamon</span></h2>
+
+        <p class="cinnamon-subtitle">The Warmth of Timeless Flavour</p>
+
+        <p class="cinnamon-description">
+          Known for its warm fragrance, delicate sweetness and distinctive woody
+          notes, cinnamon has long been treasured in kitchens around the world.
+          From comforting beverages and baked treats to fragrant curries and
+          traditional recipes, this treasured spice adds a refined touch to
+          everyday cooking.
+        </p>
+
+        <div class="cinnamon-process-heading">
+          <span>FROM HARVEST TO PACKAGING</span>
+          <h3>Our Processing Journey</h3>
+        </div>
+
+        <div class="cinnamon-process-grid">
+          <article class="cinnamon-step">
+            <span class="cinnamon-step-number">01</span>
+            <div class="cinnamon-step-content">
+              <h4>Bark Harvesting</h4>
+              <p>Mature cinnamon bark is carefully harvested.</p>
+            </div>
+          </article>
+
+          <article class="cinnamon-step">
+            <span class="cinnamon-step-number">02</span>
+            <div class="cinnamon-step-content">
+              <h4>Outer Bark Removal</h4>
+              <p>The outer layer is removed to reveal the inner bark.</p>
+            </div>
+          </article>
+
+          <article class="cinnamon-step">
+            <span class="cinnamon-step-number">03</span>
+            <div class="cinnamon-step-content">
+              <h4>Peeling & Trimming</h4>
+              <p>The inner bark is peeled and prepared carefully.</p>
+            </div>
+          </article>
+
+          <article class="cinnamon-step">
+            <span class="cinnamon-step-number">04</span>
+            <div class="cinnamon-step-content">
+              <h4>Natural Drying</h4>
+              <p>The bark is dried until it curls into cinnamon quills.</p>
+            </div>
+          </article>
+
+          <article class="cinnamon-step">
+            <span class="cinnamon-step-number">05</span>
+            <div class="cinnamon-step-content">
+              <h4>Quality Grading</h4>
+              <p>Quills are sorted by appearance and quality.</p>
+            </div>
+          </article>
+
+          <article class="cinnamon-step">
+            <span class="cinnamon-step-number">06</span>
+            <div class="cinnamon-step-content">
+              <h4>Careful Packaging</h4>
+              <p>Selected cinnamon is packed for storage and delivery.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- RIGHT IMAGE — NO TEXT OR OVERLAY ON IMAGE -->
+
+      <div class="cinnamon-image">
+        <img
+          src="images/royal cinamom.jpg"
+          alt="Premium cinnamon sticks and aromatic cinnamon bark"
+          loading="lazy"
+        />
+      </div>
+    </section>
+
+    <section class="red-chili-section" id="red-chili">
+      <!-- LEFT IMAGE — NO TEXT OR OVERLAY -->
+      <div class="chili-image">
+        <img
+          src="images/red chili process receipe.jpg"
+          alt="Fresh red chilies and dried red chili peppers"
+          loading="lazy"
+        />
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="chili-content">
+        <div class="chili-eyebrow">
+          <span class="chili-eyebrow-line"></span>
+          <span>AROMATICROOTS · WHOLE SPICES</span>
+        </div>
+
+        <h2 class="chili-title">Red <span>Chili</span></h2>
+
+        <p class="chili-subtitle">A Fiery Touch of Authentic Tradition</p>
+
+        <p class="chili-description">
+          Known for its vibrant red colour, distinctive aroma and bold flavour,
+          red chili brings warmth and character to kitchens across India.
+          Carefully selected chilies add depth to curries, spice blends,
+          marinades and traditional family recipes, creating a memorable balance
+          of colour, heat and flavour.
+        </p>
+
+        <div class="chili-process-heading">
+          <span>FROM HARVEST TO PACKAGING</span>
+          <h3>Our Processing Journey</h3>
+        </div>
+
+        <div class="chili-process-grid">
+          <article class="chili-step">
+            <span class="chili-step-number">01</span>
+            <div class="chili-step-content">
+              <h4>Harvesting</h4>
+              <p>Ripe red chilies are harvested at the appropriate stage.</p>
+            </div>
+          </article>
+
+          <article class="chili-step">
+            <span class="chili-step-number">02</span>
+            <div class="chili-step-content">
+              <h4>Selection</h4>
+              <p>Chilies are sorted by appearance and condition.</p>
+            </div>
+          </article>
+
+          <article class="chili-step">
+            <span class="chili-step-number">03</span>
+            <div class="chili-step-content">
+              <h4>Cleaning</h4>
+              <p>Dust and unwanted materials are carefully removed.</p>
+            </div>
+          </article>
+
+          <article class="chili-step">
+            <span class="chili-step-number">04</span>
+            <div class="chili-step-content">
+              <h4>Drying</h4>
+              <p>Chilies are dried under suitable conditions.</p>
+            </div>
+          </article>
+
+          <article class="chili-step">
+            <span class="chili-step-number">05</span>
+            <div class="chili-step-content">
+              <h4>Quality Grading</h4>
+              <p>Colour and overall quality are checked before packing.</p>
+            </div>
+          </article>
+
+          <article class="chili-step">
+            <span class="chili-step-number">06</span>
+            <div class="chili-step-content">
+              <h4>Packaging</h4>
+              <p>Prepared chilies are packed for storage and delivery.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="black-pepper-section" id="black-pepper">
+      <!-- LEFT CONTENT -->
+      <div class="pepper-content">
+        <div class="pepper-eyebrow">
+          <span class="pepper-eyebrow-line"></span>
+          <span>AROMATICROOTS · PRECIOUS SPICES</span>
+        </div>
+
+        <h2 class="pepper-title">Black <span>Pepper</span></h2>
+
+        <p class="pepper-subtitle">The King of Spices, Naturally Bold</p>
+
+        <p class="pepper-description">
+          Grown on graceful climbing vines in tropical landscapes, black pepper
+          is cherished for its sharp aroma, warm pungency and remarkable
+          versatility. Its bold character brings depth to everyday meals,
+          delicate sauces, hearty soups and traditional spice blends. Carefully
+          chosen peppercorns deliver a distinctive flavour that transforms
+          simple ingredients into memorable culinary experiences.
+        </p>
+
+        <div class="pepper-process-heading">
+          <span>FROM PEPPERCORN TO PANTRY</span>
+          <h3>Inside Our Pepper Journey</h3>
+        </div>
+
+        <div class="pepper-process-grid">
+          <article class="pepper-step">
+            <span class="pepper-step-number">01</span>
+            <div class="pepper-step-content">
+              <h4>Vine Cultivation</h4>
+              <p>Pepper vines grow in warm, humid tropical conditions.</p>
+            </div>
+          </article>
+
+          <article class="pepper-step">
+            <span class="pepper-step-number">02</span>
+            <div class="pepper-step-content">
+              <h4>Berry Selection</h4>
+              <p>Suitable pepper spikes are selected at the right stage.</p>
+            </div>
+          </article>
+
+          <article class="pepper-step">
+            <span class="pepper-step-number">03</span>
+            <div class="pepper-step-content">
+              <h4>Harvesting</h4>
+              <p>Pepper spikes are carefully picked from the vines.</p>
+            </div>
+          </article>
+
+          <article class="pepper-step">
+            <span class="pepper-step-number">04</span>
+            <div class="pepper-step-content">
+              <h4>Separation</h4>
+              <p>Pepper berries are separated from their spikes.</p>
+            </div>
+          </article>
+
+          <article class="pepper-step">
+            <span class="pepper-step-number">05</span>
+            <div class="pepper-step-content">
+              <h4>Sun Drying</h4>
+              <p>
+                Berries are dried until their characteristic dark skin develops.
+              </p>
+            </div>
+          </article>
+
+          <article class="pepper-step">
+            <span class="pepper-step-number">06</span>
+            <div class="pepper-step-content">
+              <h4>Grading &amp; Packing</h4>
+              <p>Dried peppercorns are sorted and packed for freshness.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- RIGHT IMAGE — NO TEXT OR OVERLAY -->
+      <div class="pepper-image">
+        <img
+          src="images/black pepper process eceipe.jpg"
+          alt="Premium black peppercorns and fresh pepper vines"
+          loading="lazy"
+        />
+      </div>
+    </section>
+
+    <!-- WHOLE SPICES PROCESS SECTION -->
+    <section class="whole-process-section" id="whole-spices">
+      <div class="whole-process-container">
+        <!-- LEFT SIDE IMAGE -->
+        <div class="whole-process-visual reveal-left">
+          <div class="whole-process-image-frame">
+            <img
+              src="images/whole spics recie.jpg"
+              alt="Aromatic whole spices including cinnamon, cardamom, cloves, pepper and star anise"
+              class="whole-process-image"
+            />
+
+            <div class="whole-image-caption"></div>
+          </div>
+
+          <div class="whole-image-note"></div>
+        </div>
+
+        <!-- RIGHT SIDE CONTENT -->
+        <div class="whole-process-content reveal-right">
+          <div class="whole-section-eyebrow">
+            <span class="eyebrow-line"></span>
+            AROMATICROOTS · WHOLE SPICES
+          </div>
+
+          <h2 class="whole-process-title">
+            From Nature's Bounty
+            <span>to Your Kitchen.</span>
+          </h2>
+
+          <p class="whole-process-subtitle">
+            Whole Spices, Preserving Every Natural Aroma
+          </p>
+
+          <p class="whole-process-description">
+            Every great recipe begins with ingredients chosen with care. We
+            select whole spices for their natural aroma, distinctive character
+            and traditional culinary value.
+          </p>
+
+          <p class="whole-process-description second-description">
+            From careful sorting to protective packing, each stage is designed
+            to help preserve the spices' natural qualities and bring authentic
+            flavour to your everyday cooking.
+          </p>
+
+          <div class="whole-process-divider">
+            <span></span>
+            <p>OUR QUALITY PROCESS</p>
+            <span></span>
+          </div>
+
+          <h3 class="whole-process-heading">Ten Steps Behind Every Spice</h3>
+
+          <div class="whole-process-list">
+            <article class="process-item">
+              <span class="process-number">01</span>
+              <div>
+                <h4>Careful Sourcing</h4>
+                <p>
+                  Choose spices from suitable growing regions and trusted
+                  suppliers.
+                </p>
+              </div>
+            </article>
+
+            <article class="process-item">
+              <span class="process-number">02</span>
+              <div>
+                <h4>Initial Inspection</h4>
+                <p>
+                  Check incoming spices for appearance, condition and overall
+                  quality.
+                </p>
+              </div>
+            </article>
+
+            <article class="process-item">
+              <span class="process-number">03</span>
+              <div>
+                <h4>Sorting and Cleaning</h4>
+                <p>Remove unwanted plant matter and unsuitable pieces.</p>
+              </div>
+            </article>
+
+            <article class="process-item">
+              <span class="process-number">04</span>
+              <div>
+                <h4>Careful Drying</h4>
+                <p>
+                  Manage moisture appropriately to help maintain product
+                  quality.
+                </p>
+              </div>
+            </article>
+
+            <article class="process-item">
+              <span class="process-number">05</span>
+              <div>
+                <h4>Size and Grade Selection</h4>
+                <p>
+                  Sort spices according to relevant size and grade requirements.
+                </p>
+              </div>
+            </article>
+
+            <article class="process-item">
+              <span class="process-number">06</span>
+              <div>
+                <h4>Aroma and Appearance Check</h4>
+                <p>
+                  Review characteristic fragrance, colour and visual condition.
+                </p>
+              </div>
+            </article>
+
+            <article class="process-item">
+              <span class="process-number">07</span>
+              <div>
+                <h4>Whole-Spice Integrity</h4>
+                <p>Keep suitable whole pieces intact wherever practical.</p>
+              </div>
+            </article>
+
+            <article class="process-item">
+              <span class="process-number">08</span>
+              <div>
+                <h4>Hygienic Handling</h4>
+                <p>
+                  Handle ingredients carefully in clean, suitable working
+                  conditions.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+     AROMATICROOTS — PREMIUM CTA SECTION
+===================================================== -->
+
+    <section class="ar-cta-section" id="spice-cta">
+      <div class="ar-cta-container">
+        <div class="ar-cta-box">
+          <span class="ar-cta-eyebrow">
+            <span class="ar-cta-line"></span>
+            AROMATICROOTS · AUTHENTIC FLAVOURS
+            <span class="ar-cta-line"></span>
+          </span>
+
+          <h2 class="ar-cta-title">
+            Bring Home the Taste of
+            <span>Authentic Spices.</span>
+          </h2>
+
+          <p class="ar-cta-description">
+            Discover the warmth of tradition in every pinch. Explore carefully
+            selected whole spices and signature blends crafted to bring
+            extraordinary aroma and flavour to your everyday cooking.
+          </p>
+
+          <div class="ar-cta-buttons">
+            <a href="products.html" class="ar-cta-btn ar-cta-primary">
+              Explore Collection
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+
+    <footer class="site-footer">
+      <!-- =====================================================
+         FOOTER MAIN
+    ====================================================== -->
+
+      <div class="footer-container">
+        <!-- ===================================================
+           BRAND
+      ==================================================== -->
+
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <span class="footer-logo-icon">
+              <img
+                src="images/Media-removebg-preview.png"
+                alt="Spice & Condiments Store Logo"
+              />
+            </span>
+
+            <span class="footer-logo-text">
+              <span class="footer-logo-name">
+                Aromatic<strong>Roots</strong>
+              </span>
+
+              <span class="footer-logo-tagline"> Rich in Flavour </span> </span
+            >z
+          </a>
+
+          <p class="footer-description">
+            Discover aromatic spices, heritage blends, and authentic condiments
+            crafted to bring rich, timeless flavors to every kitchen.
+          </p>
+
+          <!-- SOCIAL ICONS -->
+
+          <div class="footer-social">
+            <a href="#" aria-label="Community" title="Community">
+              <i data-lucide="users"></i>
+            </a>
+
+            <a href="#" aria-label="Gallery" title="Gallery">
+              <i data-lucide="camera"></i>
+            </a>
+
+            <a href="#" aria-label="Share" title="Share">
+              <i data-lucide="send"></i>
+            </a>
+
+            <a href="#" aria-label="Videos" title="Videos">
+              <i data-lucide="play"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- ===================================================
+           QUICK LINKS
+      ==================================================== -->
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+
+          <a href="index.html"> Home </a>
+
+          <a href="about.html"> About </a>
+
+          <a href="product.html"> Products </a>
+
+          <a href="recipe.html"> Recipes </a>
+
+          <a href="contact.html"> Contact </a>
+        </div>
+
+        <!-- ===================================================
+           OUR PRODUCTS
+      ==================================================== -->
+
+        <div class="footer-links">
+          <h3>Our Products</h3>
+
+          <a href="product.html"> Whole Spices </a>
+
+          <a href="product.html"> Ground Spices </a>
+
+          <a href="product.html"> Signature Blends </a>
+
+          <a href="product.html"> Condiments </a>
+
+          <a href="product.html"> Traditional Masalas </a>
+        </div>
+
+        <!-- ===================================================
+           CONTACT
+      ==================================================== -->
+
+        <div class="footer-links footer-contact">
+          <h3>Contact Us</h3>
+
+          <p>
+            <i data-lucide="map-pin"></i>
+
+            <span> Hyderabad, Telangana </span>
+          </p>
+
+          <p>
+            <i data-lucide="phone"></i>
+
+            <span> +91 98765 43210 </span>
+          </p>
+
+          <p>
+            <i data-lucide="mail"></i>
+
+            <span> hello@spiceandcondiments.com </span>
+          </p>
+
+          <p>
+            <i data-lucide="clock"></i>
+
+            <span> Mon – Sat · 9 AM – 7 PM </span>
+          </p>
+        </div>
+      </div>
+
+      <!-- =====================================================
+         FOOTER BOTTOM
+    ====================================================== -->
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-container">
+          <p>© 2026 Spice & Condiments Store. All Rights Reserved.</p>
+
+          <div class="footer-legal">
+            <a href="privacypolicy.html"> Privacy Policy </a>
+
+            <a href="terms.html"> Terms & Conditions </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+    <script src="receipe.js"></script>
+  </body>
+</html>

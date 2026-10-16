@@ -1,0 +1,750 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Spice & Condiments Store</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="global.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="500x500"
+      href="images/Media-removebg-preview.png"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body>
+    <!-- =========================================================
+       HEADER
+  ========================================================== -->
+
+    <header class="site-header" id="siteHeader">
+      <div class="header-container">
+        <!-- =====================================================
+           LOGO
+      ====================================================== -->
+
+        <a href="index.html" class="logo">
+          <span class="logo-icon">
+            <img
+              src="images/Media-removebg-preview.png"
+              alt="Spice & Condiments Store Logo"
+            />
+          </span>
+          <span class="logo-text">
+            <span class="logo-name">Aromatic<strong>Roots</strong></span>
+            <span class="logo-tagline"> Rich in Flavour</span>
+          </span>
+        </a>
+
+        <!-- =====================================================
+           MAIN NAVIGATION
+      ====================================================== -->
+
+        <nav class="main-nav" id="mainNav">
+          <!-- ===================================================
+             HOME DROPDOWN
+        ==================================================== -->
+
+          <div class="nav-dropdown">
+            <button
+              type="button"
+              class="nav-link dropdown-button"
+              id="homeDropdownButton"
+              aria-expanded="false"
+            >
+              Home
+              <i data-lucide="chevron-down"></i>
+            </button>
+
+            <div class="dropdown-menu">
+              <a href="index.html">Home 1</a>
+              <a href="index1.html">Home 2</a>
+            </div>
+          </div>
+          <!-- ===================================================
+             ABOUT
+        ==================================================== -->
+
+          <a href="about.html" class="nav-link"> About </a>
+
+          <!-- ===================================================
+             PRODUCTS
+        ==================================================== -->
+
+          <a href="product.html" class="nav-link"> Products </a>
+
+          <!-- ===================================================
+             RECIPES
+        ==================================================== -->
+
+          <a href="receipe.html" class="nav-link"> Recipes </a>
+
+          <!-- ===================================================
+             CONTACT
+        ==================================================== -->
+
+          <a href="contact.html" class="nav-link"> Contact </a>
+
+          <!-- ===================================================
+             MOBILE ENQUIRY
+        ==================================================== -->
+
+          <a href="enquiry.html" class="mobile-login"> Enquiry Form </a>
+        </nav>
+
+        <!-- =====================================================
+           HEADER ACTIONS
+      ====================================================== -->
+
+        <div class="header-actions">
+          <!-- RTL -->
+
+          <button
+            type="button"
+            class="rtl-button"
+            id="rtlToggle"
+            aria-label="Switch to RTL"
+            title="Switch to RTL"
+          >
+            <span>RTL</span>
+          </button>
+
+          <!-- DARK MODE -->
+
+          <button
+            type="button"
+            class="icon-button"
+            id="darkToggle"
+            aria-label="Dark Mode"
+            title="Dark Mode"
+          >
+            <i data-lucide="moon"></i>
+          </button>
+
+          <!-- ENQUIRY -->
+
+          <a href="enquiry.html" class="login-button">
+            <span> Enquiry Form </span>
+          </a>
+
+          <!-- MOBILE MENU -->
+
+          <button
+            type="button"
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Open Menu"
+            title="Menu"
+          >
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- =====================================================
+     CONTACT HERO
+===================================================== -->
+
+    <section class="contact-hero" id="contact-hero">
+      <div class="contact-hero-bg"></div>
+      <div class="contact-hero-overlay"></div>
+
+      <div class="contact-hero-content">
+        <div class="contact-hero-label">
+          <span class="contact-label-line"></span>
+          <span>GET IN TOUCH</span>
+        </div>
+
+        <h1 class="contact-hero-title">
+          We'd Love to
+          <span>Hear From You</span>
+        </h1>
+        <p class="contact-hero-description">
+          Have a question, suggestion, or just want to say hello? We're here to
+          help. Reach out and let's stay connected.
+        </p>
+
+        <p class="contact-hero-note">
+          Authentic flavours. Thoughtful service. A connection that matters.
+        </p>
+      </div>
+    </section>
+
+    <section class="get-in-touch" id="get-in-touch">
+      <!-- TOP CENTER HEADING -->
+      <div class="get-in-touch-header scroll-reveal">
+        <span class="touch-label">GET IN TOUCH</span>
+
+        <h2>We'd Love to <span>Hear From You</span></h2>
+
+        <p>
+          Have a question about our spices, signature blends, or wholesale
+          orders? Connect with us and let us bring authentic flavours and
+          heritage to your kitchen.
+        </p>
+      </div>
+
+      <div class="get-in-touch-container">
+        <!-- LEFT: CONTACT INFORMATION -->
+        <div class="touch-info scroll-reveal reveal-left">
+          <span class="touch-label">CONTACT AROMATICROOTS</span>
+
+          <h2>
+            Let's Talk About
+            <span>Flavour.</span>
+          </h2>
+
+          <p class="touch-description">
+            From discovering your favourite spices to finding the perfect blend
+            for your kitchen, we are here to help you bring every recipe to
+            life.
+          </p>
+
+          <div class="touch-detail scroll-reveal">
+            <div class="touch-icon">
+              <i data-lucide="map-pin"></i>
+            </div>
+            <div>
+              <span class="detail-label">OUR LOCATION</span>
+              <h3>Hyderabad, Telangana</h3>
+              <p>
+                Bringing authentic spices and traditional flavours to your
+                kitchen.
+              </p>
+            </div>
+          </div>
+
+          <div class="touch-detail scroll-reveal">
+            <div class="touch-icon">
+              <i data-lucide="phone"></i>
+            </div>
+            <div>
+              <span class="detail-label">CALL US</span>
+              <h3><a href="tel:+919876543210">+91 98765 43210</a></h3>
+              <p>Contact our team for product and order enquiries.</p>
+            </div>
+          </div>
+
+          <div class="touch-detail scroll-reveal">
+            <div class="touch-icon">
+              <i data-lucide="mail"></i>
+            </div>
+            <div>
+              <span class="detail-label">EMAIL US</span>
+              <h3>
+                <a href="mailto:hello@aromaticroots.com">
+                  hello@aromaticroots.com
+                </a>
+              </h3>
+              <p>Send us your questions and feedback.</p>
+            </div>
+          </div>
+
+          <div class="touch-detail scroll-reveal">
+            <div class="touch-icon">
+              <i data-lucide="clock"></i>
+            </div>
+            <div>
+              <span class="detail-label">OPENING HOURS</span>
+              <h3>Monday – Saturday</h3>
+              <p>9:00 AM – 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: ENQUIRY FORM -->
+        <div class="touch-form-panel scroll-reveal reveal-right">
+          <span class="touch-label">SEND AN ENQUIRY</span>
+
+          <h2>How Can We <span>Help You?</span></h2>
+
+          <p class="form-intro">
+            Share a few details about your requirements and our team will get in
+            touch with you.
+          </p>
+
+          <form id="touchEnquiryForm">
+            <div class="touch-form-grid">
+              <div class="touch-field">
+                <label for="touchName">Full Name</label>
+                <div class="touch-input">
+                  <i data-lucide="user-round"></i>
+                  <input
+                    type="text"
+                    id="touchName"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="touch-field">
+                <label for="touchPhone">Phone Number</label>
+                <div class="touch-input">
+                  <i data-lucide="phone"></i>
+                  <input
+                    type="tel"
+                    id="touchPhone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    pattern="[0-9+\s()-]{7,20}"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="touch-field">
+                <label for="touchEmail">Email Address</label>
+                <div class="touch-input">
+                  <i data-lucide="mail"></i>
+                  <input
+                    type="email"
+                    id="touchEmail"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="touch-field">
+                <label for="touchEnquiry">Enquiry Type</label>
+                <div class="touch-input">
+                  <i data-lucide="sparkles"></i>
+                  <select id="touchEnquiry" name="enquiryType" required>
+                    <option value="" selected disabled>
+                      Choose an enquiry
+                    </option>
+                    <option value="Product Enquiry">Product Enquiry</option>
+                    <option value="Bulk Orders">Bulk Orders</option>
+                    <option value="Wholesale">Wholesale Partnership</option>
+                    <option value="Order Support">Order Support</option>
+                    <option value="Recipe Suggestions">
+                      Recipe Suggestions
+                    </option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="touch-field touch-full">
+                <label for="touchProduct">Product / Spice Interest</label>
+                <div class="touch-input">
+                  <i data-lucide="package"></i>
+                  <input
+                    type="text"
+                    id="touchProduct"
+                    name="product"
+                    placeholder="e.g. Turmeric, Garam Masala, Spice Blends"
+                  />
+                </div>
+              </div>
+
+              <div class="touch-field touch-full">
+                <label for="touchMessage">Your Message</label>
+                <div class="touch-input touch-textarea">
+                  <i data-lucide="message-square"></i>
+                  <textarea
+                    id="touchMessage"
+                    name="message"
+                    rows="4"
+                    placeholder="Tell us how we can help..."
+                    required
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+
+            <button type="submit" class="touch-submit">
+              <span>Send Enquiry</span>
+              <i data-lucide="arrow-up-right"></i>
+            </button>
+
+            <p
+              id="touchFormStatus"
+              class="touch-form-status"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- CUSTOMER SUPPORT SECTION -->
+    <section class="customer-support-section" id="customer-support">
+      <div class="customer-support-container">
+        <!-- SECTION HEADER -->
+        <div class="support-header support-reveal">
+          <span class="support-label">WE'RE HERE TO HELP</span>
+          <h2>Customer <span>Support</span></h2>
+          <p>
+            Need help with our spices or an order? Our team is here to make your
+            shopping experience simple and enjoyable.
+          </p>
+        </div>
+
+        <!-- FOUR SUPPORT CARDS -->
+        <div class="support-grid">
+          <!-- CARD 1 -->
+          <article class="support-card support-reveal">
+            <div class="support-icon">
+              <i data-lucide="package-check" aria-hidden="true"></i>
+            </div>
+            <h3>Order Assistance</h3>
+            <p>
+              Get help with order confirmations, delivery updates, order changes
+              and tracking your spice purchases.
+            </p>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="support-card support-reveal">
+            <div class="support-icon">
+              <i data-lucide="leaf" aria-hidden="true"></i>
+            </div>
+            <h3>Product Guidance</h3>
+            <p>
+              Discover the right spices, explore signature blends and learn
+              about ingredients, flavours and usage.
+            </p>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="support-card support-reveal">
+            <div class="support-icon">
+              <i data-lucide="refresh-cw" aria-hidden="true"></i>
+            </div>
+            <h3>Returns &amp; Refunds</h3>
+            <p>
+              Need help with a damaged product or an order issue? Contact our
+              team for assistance with available return policies.
+            </p>
+          </article>
+
+          <!-- CARD 4 -->
+          <article class="support-card support-reveal">
+            <div class="support-icon">
+              <i data-lucide="message-circle" aria-hidden="true"></i>
+            </div>
+            <h3>Personal Support</h3>
+            <p>
+              Have a question about bulk orders, spice selections or our
+              products? We are happy to help.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- =========================================
+     FULL WIDTH MAP WITH CENTER CONTENT
+========================================= -->
+
+    <section class="full-map-section" id="store-map">
+      <!-- CENTER CONTENT -->
+      <div class="map-content map-reveal">
+        <span class="map-label">FIND OUR LOCATION</span>
+
+        <h2>Visit Our <span>Store</span></h2>
+
+        <p>
+          Discover authentic spices, aromatic blends and traditional flavours.
+          Find our location and plan your visit to AromaticRoots.
+        </p>
+      </div>
+
+      <!-- FULL WIDTH GOOGLE MAP -->
+      <div class="full-map-container map-reveal">
+        <iframe
+          src="https://maps.google.com/maps?q=Hyderabad%2C%20Telangana%2C%20India&t=&z=12&ie=UTF8&iwloc=&output=embed"
+          title="AromaticRoots Store Location Map"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+    </section>
+    <!-- FAQ SECTION -->
+
+    <section class="faq-section" id="faq">
+      <div class="faq-container">
+        <div class="faq-header faq-reveal">
+          <span class="faq-label">HELP CENTER</span>
+          <h2>Frequently Asked <span>Questions</span></h2>
+          <p>Find answers to common questions about our spices and orders.</p>
+        </div>
+
+        <div class="faq-list faq-reveal">
+          <details class="faq-item">
+            <summary>
+              <span>Are your spices fresh and authentic?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                We carefully select our spices to bring authentic flavours to
+                your kitchen. Check individual product details for specific
+                sourcing and freshness information.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>What types of spices do you sell?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Explore our collection of whole spices, ground spices,
+                traditional masala blends and selected condiments, depending on
+                availability.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>How can I place an order?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Select your preferred products and quantities, add them to your
+                cart, and follow the checkout instructions to place your order.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>What package sizes are available?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Available package sizes may differ by product. Please check the
+                product page for current weights, sizes and prices.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Do you offer home delivery?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Delivery availability depends on your location and the options
+                offered at checkout. Review the delivery details before
+                confirming your order.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>How can I contact customer support?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>
+                Visit our Contact page and submit the enquiry form with your
+                question. Include your order details if you need help with an
+                existing order.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+    <section class="stay-connected-section" id="stay-connected">
+      <div class="stay-connected-box connect-reveal">
+        <span class="connect-label">STAY CONNECTED</span>
+
+        <h2>
+          A World of Flavour,
+          <span>Delivered to You</span>
+        </h2>
+
+        <p>
+          Explore authentic spices, discover delicious recipes and stay inspired
+          with the rich flavours of AromaticRoots.
+        </p>
+
+        <a href="contact.html" class="connect-button">
+          Connect With Us
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+
+    <footer class="site-footer">
+      <!-- =====================================================
+         FOOTER MAIN
+    ====================================================== -->
+
+      <div class="footer-container">
+        <!-- ===================================================
+           BRAND
+      ==================================================== -->
+
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo">
+            <span class="footer-logo-icon">
+              <img
+                src="images/Media-removebg-preview.png"
+                alt="Spice & Condiments Store Logo"
+              />
+            </span>
+
+            <span class="footer-logo-text">
+              <span class="footer-logo-name">
+                Aromatic<strong>Roots</strong>
+              </span>
+
+              <span class="footer-logo-tagline"> Rich in Flavour </span>
+            </span>
+          </a>
+
+          <p class="footer-description">
+            Discover aromatic spices, heritage blends, and authentic condiments
+            crafted to bring rich, timeless flavors to every kitchen.
+          </p>
+
+          <!-- SOCIAL ICONS -->
+
+          <div class="footer-social">
+            <a href="#" aria-label="Community" title="Community">
+              <i data-lucide="users"></i>
+            </a>
+
+            <a href="#" aria-label="Gallery" title="Gallery">
+              <i data-lucide="camera"></i>
+            </a>
+
+            <a href="#" aria-label="Share" title="Share">
+              <i data-lucide="send"></i>
+            </a>
+
+            <a href="#" aria-label="Videos" title="Videos">
+              <i data-lucide="play"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- ===================================================
+           QUICK LINKS
+      ==================================================== -->
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+
+          <a href="index.html"> Home </a>
+
+          <a href="about.html"> About </a>
+
+          <a href="product.html"> Products </a>
+
+          <a href="receipe.html"> Recipes </a>
+
+          <a href="contact.html"> Contact </a>
+        </div>
+
+        <!-- ===================================================
+           OUR PRODUCTS
+      ==================================================== -->
+
+        <div class="footer-links">
+          <h3>Our Products</h3>
+
+          <a href="product.html"> Whole Spices </a>
+
+          <a href="product.html"> Ground Spices </a>
+
+          <a href="product.html"> Signature Blends </a>
+
+          <a href="product.html"> Condiments </a>
+
+          <a href="product.html"> Traditional Masalas </a>
+        </div>
+
+        <!-- ===================================================
+           CONTACT
+      ==================================================== -->
+
+        <div class="footer-links footer-contact">
+          <h3>Contact Us</h3>
+
+          <p>
+            <i data-lucide="map-pin"></i>
+
+            <span> Hyderabad, Telangana </span>
+          </p>
+
+          <p>
+            <i data-lucide="phone"></i>
+
+            <span> +91 98765 43210 </span>
+          </p>
+
+          <p>
+            <i data-lucide="mail"></i>
+
+            <span> hello@spiceandcondiments.com </span>
+          </p>
+
+          <p>
+            <i data-lucide="clock"></i>
+
+            <span> Mon – Sat · 9 AM – 7 PM </span>
+          </p>
+        </div>
+      </div>
+
+      <!-- =====================================================
+         FOOTER BOTTOM
+    ====================================================== -->
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-container">
+          <p>© 2026 Spice & Condiments Store. All Rights Reserved.</p>
+
+          <div class="footer-legal">
+            <a href="pricing.html"> Privacy Policy </a>
+
+            <a href="terms.html"> Terms & Conditions </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+    <script src="contact.js"></script>
+  </body>
+</html>
